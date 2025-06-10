@@ -14,7 +14,7 @@ This GitHub repository is intended to provide all necessary resources and instru
 ## Features
 
 - Measures chlorophyll a concentration in the range of [1-50] µg/L.
-- Low-cost, low-tech, and open-source design.
+- Low-cost (approximately $200), low-tech, and open-source design.
 
 ## Functionality
 
@@ -33,9 +33,9 @@ the main components are:
 | Transistor | LED modulation |
 | Amplifier | Enhances signal |
 
-For a detailed list of components with the références, please refer to the [Components List](components.md). The total cost of the components is around 200 euros.
+For a detailed list of components with the références, please refer to the [Components List](components.md).
 
-## Installation
+## Construction of the fluorimeter
 
 ### Prerequisites
 
