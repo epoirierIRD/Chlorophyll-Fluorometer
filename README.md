@@ -22,7 +22,7 @@ The device operates on the principle of fluorescence, where chlorophyll emits li
 
 ## Components
 
-### Main Components
+the main components are:
 
 | Component | Description |
 |-----------|-------------|
