@@ -50,7 +50,7 @@ For a detailed list of components with the références, please refer to the [Co
 1. **Clone the Repository:**
 
    ```bash
-   git clone [REPOSITORY_URL]
+   git clone https://github.com/EnssatPhotonicsProjects/Chlorophyll-Fluorometer.git
    ```
 
 ### Assemble the Electronic Components
