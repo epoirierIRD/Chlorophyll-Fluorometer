@@ -87,6 +87,8 @@ Contributions to this project are welcome. Here's how you can contribute:
 
 3. **Submit a Pull Request** with a detailed description of your changes.
 
+## Avenues for Improvement
+
 ## License
 
 This project is licensed under [License Name]. Please see the `LICENSE` file for more details.
