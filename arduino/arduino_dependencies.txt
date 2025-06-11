@@ -1,0 +1,30 @@
+# Arduino Model
+This project is designed to work with any Arduino Uno board compatible with the ATmega328 microcontroller or similar.
+
+# Required Libraries
+The following Arduino libraries are required to compile and run this project:
+
+1. Wire.h
+   - Included with Arduino IDE
+   - Used for I2C communication.
+
+2. Adafruit_ADS1X15.h
+   - Available via Arduino Library Manager
+   - Used for interfacing with the ADS1115 ADC.
+
+3. Adafruit_GFX.h
+   - Available via Arduino Library Manager
+   - Core graphics library for displaying text and shapes on displays.
+
+4. Adafruit_SSD1306.h
+   - Available via Arduino Library Manager
+   - Driver for the SSD1306 OLED display.
+
+# Installation Instructions
+To install the required libraries:
+1. Open the Arduino IDE.
+2. Go to Sketch > Include Library > Manage Libraries.
+3. Search for each library by name and install it.
+
+# Additional Setup
+Ensure that your I2C devices (ADS1115 and SSD1306) are correctly connected to the Arduino I2C pins (A4 for SDA and A5 for SCL).
