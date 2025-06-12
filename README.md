@@ -18,19 +18,19 @@ This GitHub repository is intended to provide all necessary resources and instru
 
 ## principle of fluorimetry
 
-The principle of fluorimetry is based on the fact that chlorophyll a in Phytoplankton, when excited by a blue light source at a wavelength of 430 nm, re-emits light in the red spectrum at 669 nm. In practice, blue light is directed at a sample containing chlorophyll a, causing it to fluoresce red. This red fluorescence is captured by a photodetector, enabling the measurement of chlorophyll a concentration in the sample.
-
 <p align="center">
-  <img src="images/principle_diagram.png" alt="principle diagram" width="400"/>
+  <img src="images/principle_diagram.png" alt="principle diagram" width="350"/>
 </p>
 
-## Functionality
+The principle of fluorimetry is based on the fact that chlorophyll a in Phytoplankton, when excited by a blue light source at a wavelength of 430 nm, re-emits light in the red spectrum at 669 nm. In practice, blue light is directed at a sample containing chlorophyll a, causing it to fluoresce red. This red fluorescence is captured by a photodetector, enabling the measurement of chlorophyll a concentration in the sample.
 
-This setup improves the accuracy of measurements by reducing interference from unwanted light sources. In this fluorimeter, the Arduino board enables modulation and demodulation to eliminate ambient light. A red filter is used to prevent the detection of unwanted light used to stimulate chlorophyll (blue), allowing only the chlorophyll emission wavelength (red) to pass through to the photodiode.
+## Functionality
 
 <p align="center">
   <img src="images/block_diagram.png" alt="block diagram" width="800"/>
 </p>
+
+This setup improves the accuracy of measurements by reducing interference from unwanted light sources. In this fluorimeter, the Arduino board enables modulation and demodulation to eliminate ambient light. A red filter is used to prevent the detection of unwanted light used to stimulate chlorophyll (blue), allowing only the chlorophyll emission wavelength (red) to pass through to the photodiode.
 
 ## Components
 
