@@ -16,12 +16,18 @@ This GitHub repository is intended to provide all necessary resources and instru
 - Measures chlorophyll a concentration in the range of [1-50] µg/L.
 - Low-cost (approximately $200), low-tech, and open-source design.
 
+## principle of fluorimetry
+
+<p align="center">
+  <img src="images/principle_diagram.png" alt="principle diagram" width="400"/>
+</p>
+
 ## Functionality
 
 The device operates on the principle of fluorescence, where chlorophyll emits light upon excitation. The Arduino board enables modulation and demodulation to eliminate ambient light, thereby enhancing signal quality. A red filter is used to prevent the detection of light used to stimulate chlorophyll, allowing only the desired wavelengths to pass through to the photodiode. This setup improves the accuracy of measurements by reducing interference from unwanted light sources.
 
 <p align="center">
-  <img src="images/principle_diagram.png" alt="principle diagram" width="400"/>
+  <img src="images/block_diagram.png" alt="block_diagram" width="400"/>
 </p>
 
 ## Components
