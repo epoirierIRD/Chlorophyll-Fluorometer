@@ -23,4 +23,4 @@
 
 ## Final price
 
-the price is estimated in June 2025 at 200$ without delivery.
+the price is estimated in June 2025 at 200 $ without delivery.
