@@ -1,6 +1,6 @@
-# Liste des Composants
+# List of components
 
-| Composant | Référence | Quantité | Prix Unitaire |
+| component | Reference | Quantity | Price per unit |
 |-----------|-----------|----------|---------------|
 | Photodiode | Thorlabs - FDS10X10 | 1 | 135 $ |
 | Arduino | Arduino Uno Rev3 | 1 | 27 $ |
