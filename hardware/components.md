@@ -18,7 +18,7 @@
 
 | component | Reference | Quantity | Price per unit |
 |-----------|-----------|----------|---------------|
-| Filament PLA black | N/A |  N/A | ≈5 $ |
+| Filament PLA black | **not determined** | **not determined** | ≈5 $ |
 | case | **not determined** | 1 | **not determined** |
 
 ## Final price
