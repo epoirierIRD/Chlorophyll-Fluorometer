@@ -43,7 +43,7 @@ the main components are:
 | Transistor | LED modulation |
 | Amplifier | Enhances signal |
 
-For a detailed list of components with the références, please refer to the [Components List](components.md).
+For a detailed list of components with the références, please refer to the [Components List](hardware/components.md).
 
 ## Construction of the fluorimeter
 
