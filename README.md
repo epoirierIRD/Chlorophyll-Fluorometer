@@ -47,7 +47,7 @@ For a detailed list of components with the références, please refer to the [Co
 - Electronic components
 - 3D printer
 - Soldering equipment
-- Tupperware
+- ...
 
 ### Installation Steps
 
