@@ -1,5 +1,7 @@
 # List of components
 
+## Electronic components
+
 | component | Reference | Quantity | Price per unit |
 |-----------|-----------|----------|---------------|
 | Photodiode | Thorlabs - FDS10X10 | 1 | 135 $ |
@@ -11,7 +13,14 @@
 | Amplificateur | TL081 | 1 | <1 $ |
 | Résistance | 100 kΩ, 273 Ω, 4.7 Ω | 3 | <1 $ |
 | Capacitor | 10 μF | 2 | <1 $ |
-| Filament PLA | | 1 | ≈5 $ |
-| case | ? | 1 | ? |
+
+## Case and support
+
+| component | Reference | Quantity | Price per unit |
+|-----------|-----------|----------|---------------|
+| Filament PLA black | N/A |  N/A | ≈5 $ |
+| case | **not determined** | 1 | **not determined** |
+
+## Final price
 
 the price is estimated in June 2025 at 200$ without delivery.
