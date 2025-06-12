@@ -18,7 +18,7 @@ This GitHub repository is intended to provide all necessary resources and instru
 
 ## principle of fluorimetry
 
-The principle of fluorimetry is based on the fact that chlorophyll a in Phytoplankton, when excited by a blue light source at a wavelength of 430 nanometers, re-emits light in the red spectrum at 669 nanometers. In practice, blue light is directed at a sample containing chlorophyll a, causing it to fluoresce red. This red fluorescence is captured by a photodetector, enabling the measurement of chlorophyll a concentration in the sample.
+The principle of fluorimetry is based on the fact that chlorophyll a in Phytoplankton, when excited by a blue light source at a wavelength of 430 nm, re-emits light in the red spectrum at 669 nm. In practice, blue light is directed at a sample containing chlorophyll a, causing it to fluoresce red. This red fluorescence is captured by a photodetector, enabling the measurement of chlorophyll a concentration in the sample.
 
 <p align="center">
   <img src="images/principle_diagram.png" alt="principle diagram" width="400"/>
