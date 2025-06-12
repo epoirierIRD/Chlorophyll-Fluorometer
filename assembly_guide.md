@@ -28,7 +28,7 @@ If you are prototyping or prefer not to use a PCB, you can assemble the circuit 
 
 ### Using a PCB
 
-1. Download the PCB design file from the repository: [PCB File]().
+1. Download the PCB design file from the repository: [PCB File](hardware/PCB.brd).
 2. Order the PCB from a manufacturer or print it if you have the necessary equipment.
 3. Solder the components onto the PCB following the schematic diagram.
 
@@ -65,4 +65,3 @@ If you encounter any issues during the assembly or operation of the device, refe
 - [Schematic Diagram](path/to/Schematic.pdf)
 - [PCB Design File](path/to/PCB_file)
 - [STL Files for 3D Printing](STL_file_ready_to_3D_printing/)
-```
