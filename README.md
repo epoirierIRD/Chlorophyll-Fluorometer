@@ -73,7 +73,7 @@ For component assembly, we provide a PCB file and a schematic diagram. It is pos
 
 ### Assemble Support
 
-- Use the provided STL files to print the necessary supports. Links to the files will be provided, including files for the [LED+photodiode](STL_file_ready_to_3D_printing/support_led_photodiode.stl) and the [board support](STL_file_ready_to_3D_printing/support_arduino.stl).
+- Use the provided STL files to print the necessary supports. Links to the files will be provided, including files for the [LED and photodiode support](STL_file_ready_to_3D_printing/support_led_photodiode.stl) and the [board support](STL_file_ready_to_3D_printing/support_arduino.stl).
 
 ### Arduino
 
