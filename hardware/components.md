@@ -2,13 +2,16 @@
 
 | Composant | Référence | Quantité | Prix Unitaire |
 |-----------|-----------|----------|---------------|
-| LED | Luxeon C Color Line - Violet | 2 | 5 € |
-| Photodiode | Thorlabs - FDS10X10 | 1 | 134,73 € |
-| Filtre | Lee Filters - 182 Light Red | 1 | 2 € |
-| Transistor | PN2222A | 1 | 0,428 € |
-| Amplificateur | TL081 | 1 | 10,40 € |
-| Résistance | | 3 | 0,71 € |
-| Arduino | Arduino Uno Rev3 | 1 | 22 € |
-| ADC | ADS1115 Adafruit | 1 | 7 € |
-| Filament PLA | | 1 | 5 € |
-| Boîte en verre | | 1 | 5,99 € |
+| Photodiode | Thorlabs - FDS10X10 | 1 | 135 $ |
+| Arduino | Arduino Uno Rev3 | 1 | 27 $ |
+| ADC | ADS1115 Adafruit | 1 | 18 $ |
+| LED | Luxeon C Color Line - Violet | 2 | 6 $ |
+| Filtre | Lee Filters - 182 Light Red | 1 | 5 $ |
+| Transistor | PN2222A | 1 | <1 $ |
+| Amplificateur | TL081 | 1 | <1 $ |
+| Résistance | 100 kΩ, 273 Ω, 4.7 Ω | 3 | <1 $ |
+| Capacitor | 10 μF | 2 | <1 $ |
+| Filament PLA | | 1 | ≈5 $ |
+| case | ? | 1 | ? |
+
+the price is estimated in June 2025 at 200$ without delivery.
