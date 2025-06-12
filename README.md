@@ -27,7 +27,7 @@ This GitHub repository is intended to provide all necessary resources and instru
 The device operates on the principle of fluorescence, where chlorophyll emits light upon excitation. The Arduino board enables modulation and demodulation to eliminate ambient light, thereby enhancing signal quality. A red filter is used to prevent the detection of light used to stimulate chlorophyll, allowing only the desired wavelengths to pass through to the photodiode. This setup improves the accuracy of measurements by reducing interference from unwanted light sources.
 
 <p align="center">
-  <img src="images/block_diagram.png" alt="block_diagram" width="800"/>
+  <img src="images/block_diagram.png" alt="block diagram" width="800"/>
 </p>
 
 ## Components
