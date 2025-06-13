@@ -13,6 +13,9 @@
 | Amplificateur | TL081 | 1 | <1 $ |
 | Résistance | 100 kΩ, 273 Ω, 4.7 Ω | 3 | <1 $ |
 | Capacitor | 10 μF | 2 | <1 $ |
+| OLED Screen | SSD1306 | 1 | 1,72 $ |
+| SD Card Shield | TC-8579888 | 1 | 10 $ |
+| Bluetooth Shield | ? | 1 | ? |
 
 ## Case and support
 
