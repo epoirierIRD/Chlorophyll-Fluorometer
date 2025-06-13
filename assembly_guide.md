@@ -62,6 +62,6 @@ If you encounter any issues during the assembly or operation of the device, refe
 
 ## Additional Resources
 
-- [Schematic Diagram](path/to/Schematic.pdf)
+- [Schematic Diagram](hardware/Schematic.pdf)
 - [PCB Design File](path/to/PCB_file)
-- [STL Files for 3D Printing](STL_file_ready_to_3D_printing/)
+- [STL Files for 3D Printing](3D_printing/STL_file_ready_to_3D_printing/)
