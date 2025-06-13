@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/Enssat-UnivRennes_RVB.png" alt="ENSSAT Logo" width="200"/>
+  <img src="images/Enssat-UnivRennes_RVB.png" alt="ENSSAT Logo" width="500"/>
 </p>
 
 # Chlorophyll-Fluorometer
