@@ -2,7 +2,7 @@
 
 ## Electronic components
 
-| component | Reference | Quantity | Price per unit |
+| Component | Reference | Quantity | Price per unit |
 |-----------|-----------|----------|---------------|
 | Photodiode | Thorlabs - FDS10X10 | 1 | 135 $ |
 | Arduino | Arduino Uno Rev3 | 1 | 27 $ |
@@ -19,7 +19,7 @@
 
 ## Case and support
 
-| component | Reference | Quantity | Price per unit |
+| Component | Reference | Quantity | Price per unit |
 |-----------|-----------|----------|---------------|
 | Filament PLA black | **not determined** | **not determined** | ≈5 $ |
 | case | **not determined** | 1 | **not determined** |
