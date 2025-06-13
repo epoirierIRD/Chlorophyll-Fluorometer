@@ -83,6 +83,7 @@ For component assembly, we provide a PCB file and a schematic diagram. It is pos
 
 ### Calibration
 
+_It is necessary to have a standard fluorimeter to calibrate our low cost fluorimeter_
 - Follow the [calibration protocol](calibration.md) described in the documentation to adjust the fluorometer according to local conditions.
 
 ## Contribution
