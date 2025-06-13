@@ -44,6 +44,10 @@ The main components are:
 | ADC | Analog to Digital Converter |
 | Transistor | LED modulation |
 | Amplifier | Enhances signal |
+| LCD Screen | Shows values |
+| SD Card Shield | Saves values in an SD Card |
+| Bluetooth Shield | Transfers values by bluetooth |
+
 
 For a detailed list of components with the references, please refer to the [Components List](hardware/components.md).
 
