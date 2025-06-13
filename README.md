@@ -16,7 +16,7 @@ This GitHub repository is intended to provide all necessary resources and instru
 - Low-cost (approximately $200), low-tech, and open-source design.
 - Portable
 
-## principle of fluorimetry
+## Principle of fluorimetry
 
 <p align="center">
   <img src="images/principle_diagram.png" alt="principle diagram" width="350"/>
@@ -34,7 +34,7 @@ This setup improves the accuracy of measurements by reducing interference from u
 
 ## Components
 
-the main components are:
+The main components are:
 
 | Component | Description |
 |-----------|-------------|
@@ -45,7 +45,7 @@ the main components are:
 | Transistor | LED modulation |
 | Amplifier | Enhances signal |
 
-For a detailed list of components with the références, please refer to the [Components List](hardware/components.md).
+For a detailed list of components with the references, please refer to the [Components List](hardware/components.md).
 
 ## Construction of the fluorimeter
 
