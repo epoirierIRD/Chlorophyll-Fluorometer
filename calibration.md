@@ -38,6 +38,6 @@ This value corresponds to the concentration you tested.
 ## Step 4: Draw the calibration line
 
 1. Draw your measures in a data analysis and visualization program. On the x-axis put the concentration, on the y-axis put the current.
-2. Fit the points with a linear model. You can adjust the ordinate at origin with the value you read in the **Step 2**.
+2. Fit the points with a linear model. You can adjust the ordinate at origin with the value you read in **Step 2**.
 
 Your fluorometer is now calibrated.
