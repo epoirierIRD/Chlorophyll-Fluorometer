@@ -24,7 +24,7 @@ git clone https://github.com/EnssatPhotonicsProjects/Chlorophyll-Fluorometer.git
 
 ### Using a Breadboard
 
-If you are prototyping or prefer not to use a PCB, you can assemble the circuit on a breadboard. Refer to the [Schematic.pdf](path/to/Schematic.pdf) for detailed connections.
+If you are prototyping or prefer not to use a PCB, you can assemble the circuit on a breadboard. Refer to the [Schematic.pdf](path/to/hardware/Schematic.pdf) for detailed connections.
 
 ### Using a PCB
 
