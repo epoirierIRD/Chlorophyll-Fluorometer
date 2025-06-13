@@ -7,7 +7,7 @@ This guide provides detailed instructions on how to assemble the Chlorophyll-Flu
 Before starting the assembly process, ensure you have the following tools and components ready:
 
 - Arduino IDE installed on your computer
-- All electronic components listed in the [Components List](components.md)
+- All electronic components listed in the [Components List](hardware/components.md)
 - 3D printer for printing support structures
 - Soldering equipment for assembling electronic circuits
 - Basic hand tools (screwdrivers, pliers, etc.)
@@ -24,7 +24,7 @@ git clone https://github.com/EnssatPhotonicsProjects/Chlorophyll-Fluorometer.git
 
 ### Using a Breadboard
 
-If you are prototyping or prefer not to use a PCB, you can assemble the circuit on a breadboard. Refer to the [Schematic.pdf](path/to/hardware/Schematic.pdf) for detailed connections.
+If you are prototyping or prefer not to use a PCB, you can assemble the circuit on a breadboard. Refer to the [Schematic.pdf](hardware/Schematic.pdf) for detailed connections.
 
 ### Using a PCB
 
