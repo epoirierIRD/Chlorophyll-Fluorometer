@@ -14,7 +14,7 @@ This GitHub repository is intended to provide all necessary resources and instru
 
 - Measures chlorophyll a concentration in the range of [1-50] µg/L.
 - Low-cost (approximately $200), low-tech, and open-source design.
-
+- Portable
 
 ## principle of fluorimetry
 
@@ -83,7 +83,7 @@ For component assembly, we provide a PCB file and a schematic diagram. It is pos
 
 ### Calibration
 
-- Follow the calibration protocol described in the documentation to adjust the fluorometer according to local conditions.
+- Follow the [calibration protocol](calibration.md) described in the documentation to adjust the fluorometer according to local conditions.
 
 ## Contribution
 
