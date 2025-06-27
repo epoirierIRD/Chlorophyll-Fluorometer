@@ -39,7 +39,7 @@ Use the provided STL files to 3D print the necessary support structures:
 - [LED and Photodiode Support](STL_file_ready_to_3D_printing/support_led_photodiode.stl)
 - [Arduino Board Support](STL_file_ready_to_3D_printing/support_arduino.stl)
 
-Assemble the printed parts according to the instructions provided in the [Assembly Manual](assembly_manual.md).
+Assemble the printed parts according to the instructions provided in the [Assembly Manual](structure_assembly_guide.md).
 
 ## Step 4: Upload the Arduino Code
 
