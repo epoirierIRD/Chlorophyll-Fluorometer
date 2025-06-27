@@ -6,7 +6,7 @@ This guide provides detailed instructions on how to assemble the Chlorophyll-Flu
 
 Before starting the assembly process, ensure you have the following tools and components ready:
 
-- Components from the Component list
+- Components from the [Components List](hardware/components.md)
 - PVC glue
 - Sandpaper
 - PVC stripper
@@ -29,23 +29,34 @@ When this is done, you can assemble de following components :
 - 3D printed support
 - Seal
 
-Photo of the components
+<p align="center">
+  <img src="images/3D_printed_structure_assembly/0.components.jpg" alt="0.components" width="400"/>
+</p>
 
 1. Position the LEDs in their slots. If they don't fit, you can lightly file the LEDs bases. The LEDs must be perfectly held by the support and must not move. The wires must come out of the back of the bracket.
 
-Photo
+<p align="center">
+  <img src="images/3D_printed_structure_assembly/1.LEDs.jpg" alt="1.LEDs" width="400"/>
+</p>
+
 
 2. Position the photodiode in its slot. Bend the wires to make them come out of the back of the bracket.
 
-Photo
+<p align="center">
+  <img src="images/3D_printed_structure_assembly/2.Photodiode.jpg" alt="2.Photodiode" width="400"/>
+</p>
 
 3. Add the three pieces of red filter. You can slide them in the photodiode slot, this will hold everything in place in the holder. However, make sure that the filters are perfectly flat on the photodiode, or light could pass underneath. You can add a small piece of scotch tape to the end of the filters and fold it over the photodiode so that nothing escapes.
 
-Photo
+<p align="center">
+  <img src="images/3D_printed_structure_assembly/3.Filters.jpg" alt="3.Filters" width="400"/>
+</p>
 
 4. Glue the seal under the support.
 
-Photo
+<p align="center">
+  <img src="images/3D_printed_structure_assembly/4.Seal.jpg" alt="4.Seal" width="400"/>
+</p>
 
 
 
