@@ -75,7 +75,7 @@ In this step, you will need :
 - Laser cutter
 - Paper towel or rag
 - Ø89 and Ø84 hole saws
-- angle grinder
+- Angle grinder
 
 <p align="center">
   <img src="images/box_assembly/0.components.jpg" alt="0.components" width="400"/>
@@ -94,7 +94,7 @@ Photos
 3. Glue the rings for screwing on plugs to the sleeve. As above, sand the surfaces to be glued, then clean them. Apply a generous amount of glue. Leave to dry for at least an hour. You can test for leaks on either side by screwing on the plug with the smallest window and dipping the sleeve halfway into the water. If there is no infiltration, the bond is correct.
 
 <p align="center">
-  <img src="images/box_assembly/3. sleeve.jpg" alt="3.sleeve" width="400"/>
+  <img src="images/box_assembly/3.sleeve.jpg" alt="3.sleeve" width="400"/>
 </p>
 
 4. Glue the plug with the largest window to one side of the sleeve. Apply a generous amount of glue to the threads of the sleeve and plug. Also apply glue to the gap between the sleeve and the plug, on the outside of the sleeve and on the indside, between the PMMA disc and the sleeve. Leave to dry for several hours. Test for leaks by immersing the sleeve halfway in water. If there are any leaks, add glue to the inside and/or outside of the sleeve where the leaks are. Allow to dry again and try again. You may need to repeat the operation several times until the seal is perfect.
