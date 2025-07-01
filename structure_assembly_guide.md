@@ -63,6 +63,66 @@ When this is done, you can assemble de following components :
 
 ## Step 2 : Assemble the internal structure
 
+The materials required for this step are :
+- The Arduino UNO R3 board
+- The PCB board with all the electronic components (Screen, SD Card shield)
+- 4 spacers of 5 mm
+- 4 screws, diameter 3 mm, length 5 mm + nuts
+- 16 spacers of 30 mm
+- 4 countersunk screw, diameter 3 mm, length 8 mm + nuts + washers
+- 2 screws, diameter 3 mm, length 10 mm + nuts + washers
+- 2 screws, diameter 2 mm, length 12 mm + nuts + washers
+- a powerbank (100 x 50 x 2.5) mm max
+- a dual output power supply and angled USB output cable
+- The LEDs and photodiode support made in the previous step
+- black PMMA sheet, thickness 3 mm
+- transparent PMMA sheet, thickness 3 mm
+- Screwdriver
+- Laser cutter
+
+Photo
+1. Cut the structure in the PMMA sheets with the laser cutter. In transparent PMMA, cut the [top plate](...). In black PMMA, cut the [face and bottom plates](...).
+
+Photo
+
+2. Screw 3 screws and 5 mm spacers to the Arduino board, as shown in the photo below. Connect the PCB to the Arduino board.
+
+Photo
+
+3. Take the face plate. Locate the side where the Arduino board goes. On the opposite side, screw the SD Card shield. Put a washer between the shield and the plate. The screws must protrude from the side of the module. You can loosen the nuts slightly, the height of the module will then be adjusted. Add a screw and a 5 mm spacer in the hole at the bottom left of the module.
+
+Photo
+
+4. Screw the Arduino board on the opposite face of the plate.
+
+Photo
+
+5. Take the bottom plate and the LEDs and photodiode support. Screw the LEDs and photodiode support under the bottom plate. Make sure that the large hole in the plate is on the same side as the wires. You can loosen the nuts for now, the position of the support will be adjusted. Pass the wires through the hole.
+
+Photo
+
+6. Take a plug. Adjust the position of the support. It should be in the center of the plug, and so should the plate. When the positions are correct, tighten the screws.
+
+Photo
+
+7. Screw the spacers into the four corners.
+
+Photo
+
+8. Screw the LEDs and photodiode wires into terminal strips of the PCB.
+
+Photo
+
+9. Put the face plate in the bottom plate, bend the wires of the LEDs and photodiode. Make sure they didn't move in the process.
+
+Photo
+
+10. Screw the top plate. You can now adjust the position of the SD card shield so that it can be removed easily, but without protruding too far. Tighten the screws when the position is good.
+
+Photo
+
+11. Put the powerbank and the alimentation cable.
+
 ## Step 3 : Assemble the waterproof box
 
 In this step, you will need :
