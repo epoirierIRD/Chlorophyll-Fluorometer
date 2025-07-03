@@ -46,7 +46,6 @@ The main components are:
 | Amplifier | Enhances signal |
 | OLED Screen | Shows values |
 | SD Card Shield | Saves values in an SD Card |
-| Bluetooth Shield | Transfers values by bluetooth |
 
 
 For a detailed list of components with the references, please refer to the [Components List](hardware/components.md).
@@ -90,7 +89,7 @@ For component assembly, we provide a PCB file and a schematic diagram. It is pos
 _It is necessary to have a standard fluorimeter to calibrate our low cost fluorimeter_
 - Follow the [calibration protocol](calibration.md) described in the documentation to adjust the fluorometer according to local conditions.
 
-## Contribution
+## To contribute
 
 Contributions to this project are welcome. Here's how you can contribute:
 
@@ -105,6 +104,40 @@ Contributions to this project are welcome. Here's how you can contribute:
 3. **Submit a Pull Request** with a detailed description of your changes.
 
 ## Avenues for Improvement
+
+## Contributors
+
+Team 2024-2025 :
+- Loïc Goumarre (minimadcap)
+- Cécile Plaçais (CecileP28)
+- Agathe Douissard (Douidoui2)
+- Olivier Josephiak
+- Mayssame Ismael
+- Hugo Le Moal
+- Viken Tevonian
+- Merlin Rivière
+
+Team 2023-2024 :
+- Jérémy Gigandet
+- Brice Hervé
+- Thomas Quinchon
+- Damien Depauw
+- Etienne Chaillot
+- Nicolas Chabrier
+- Thomas Gysemberg
+
+
+## Acknowledgments
+
+The authors warmly thank Thierry Chartier, Laurent Bramerie, supervisors of the project at Enssat, Philippe Laborie (Laboratoire de physique corpusculaire, Caen, France) and Etienne Poirier (IUEM, Plouzané, France), members of the steering committee, for their advice and support throughout the project. Special thanks to Etienne Poirier for giving the idea of the project, trusting us and welcome us at IUEM in the last days of the project.
+
+Authors are also very grateful to Antoine Courtay, Hervé Daniel, Clément Dauphin, Hervé Chuberre, teachers at Enssat, and Jean-Philippe Lesault, technician at Enssat, for their advice and technical support. Special thanks to Yvan Guilloit, in charge of the MakerSpace at IUT de Lannion, France, for his help in the integration of the device in the waterproof box.
+
+The fluorometer project started in september 2023 with a first team of Enssat students. Our fluorometer could not have been finalized without their initial work. Many thanks to Nicolas Chabrier, Etienne Chaillot, Damien Depauw, Jérémy Gigandet, Thomas Gysemberg, Brice Hervé, and Thomas Quinchon.
+
+We had the chance to meet Michel Hignette (oceanographer and president of ArmorScience, Lannion, France). We are very grateful to him for sharing his knowledge on phytoplankton.
+
+Hence, we would like to thank to Maël Guibré (student at IUT de Lannion) for the time he took to make some videos of the project.
 
 ## License
 
