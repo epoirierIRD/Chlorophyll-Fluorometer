@@ -27,7 +27,7 @@ The principle of fluorimetry is based on the fact that chlorophyll a in Phytopla
 ## Functionality
 
 <p align="center">
-  <img src="images/block_diagram.png" alt="block diagram" width="800"/>
+  <img src="images/Block_diagram.png" alt="Block diagram" width="400"/>
 </p>
 
 This setup improves the accuracy of measurements by reducing interference from unwanted light sources. In this fluorimeter, the Arduino board enables modulation and demodulation to eliminate ambient light. A red filter is used to prevent the detection of unwanted light used to stimulate chlorophyll (blue), allowing only the chlorophyll emission wavelength (red) to pass through to the photodiode.
@@ -58,6 +58,7 @@ For a detailed list of components with the references, please refer to the [Comp
 - Electronic components
 - 3D printer
 - Soldering equipment
+- Laser cutter
 - ...
 
 ### Installation Steps
