@@ -10,6 +10,8 @@ This project aims to develop a portable and low-cost fluorometer for detecting c
 
 This GitHub repository is intended to provide all necessary resources and instructions to reproduce the product.
 
+The present document aims to provide an overview of some technical aspects of our fluorometer.
+
 ## Features
 
 - Measures chlorophyll-a concentration in the range of [1-50] µg/L.
