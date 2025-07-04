@@ -8,7 +8,8 @@ Before starting the calibration process, ensure you have the following tools and
 
 - The fluorometer completely closed and waterproof
 - Various chlorophyll solutions of known concentration (minimum four solutions to ensure quality calibration)
-- A container in which you can dip the fluorometer
+- A container in which to immerse the fluorometer. Choose the container carefully : the material and shape can interfere with measurements. To choose the best container, fill it with water and measure the current in the water. The lowest current corresponds to the best container.
+- Make your measurements in a dimly lit room, on a dark non-fluorescent surface.
 
 ## Step 1: Threshold in the dark
 
