@@ -66,56 +66,94 @@ The materials required for this step are :
 - 4 countersunk screw, diameter 3 mm, length 8 mm + nuts + washers
 - 2 screws, diameter 3 mm, length 10 mm + nuts + washers
 - 2 screws, diameter 2 mm, length 12 mm + nuts + washers
-- a powerbank (100 x 50 x 2.5) mm max
-- a dual output power supply and angled USB output cable
+- A powerbank (100 x 50 x 2.5) mm max
+- A dual output power supply and angled USB output cable
 - The LEDs and photodiode support made in the previous step
-- matt black PMMA sheet, thickness 3 mm
+- Matt black PMMA sheet, thickness 3 mm
 - PMMA sheet, thickness 2 mm
 - Screwdriver
 - Laser cutter
 
-Photo
+<p align="center">
+  <img src="images/structure_assembly/0.components.jpg" alt="0.components" width="500"/>
+</p>
+
 1. Cut the structure in the PMMA sheets with the laser cutter. In 2 mm PMMA, cut the [top plate](hardware/Ready_to_laser_cut_Top-Plate). In black PMMA, cut the [face and bottom plates](hardware/Ready_to_laser_cut_Structure-Plans.svg).
 
-Photo
+<p align="center">
+  <img src="images/structure_assembly/1.laser_cutter.jpg" alt="1.laser_cutter" width="400"/>
+</p>
+
 
 2. Screw 3 screws and 5 mm spacers to the Arduino board, as shown in the photo below. Connect the PCB to the Arduino board.
 
-Photo
+<p align="center">
+  <img src="images/structure_assembly/2.arduino.jpg" alt="2.arduino" width="400"/>
+</p>
+
 
 3. Take the face plate. Locate the side where the Arduino board goes. On the opposite side, screw the SD Card shield. Put a washer between the shield and the plate. The screws must protrude from the side of the module. You can loosen the nuts slightly, the height of the module will then be adjusted. Add a screw and a 5 mm spacer in the hole at the bottom left of the module.
 
-Photo
+<p align="center">
+  <img src="images/structure_assembly/3.SD_module.jpg" alt="3.SD_module.jpg" width="300"/>
+</p>
+
 
 4. Screw the Arduino board on the opposite face of the plate.
 
-Photo
+<p align="center">
+  <img src="images/structure_assembly/4.middle_structure.jpg" alt="4.middle_structure" width="500"/>
+</p>
+
 
 5. Take the bottom plate and the LEDs and photodiode support. Screw the LEDs and photodiode support under the bottom plate. Make sure that the large hole in the plate is on the same side as the wires. You can loosen the nuts for now, the position of the support will be adjusted. Pass the wires through the hole.
 
-Photo
+<p align="center">
+  <img src="images/structure_assembly/5.bottom.jpg" alt="5.bottom" width="400"/>
+</p>
+
 
 6. Take a plug. Adjust the position of the support. It should be in the center of the plug, and so should the plate. When the positions are correct, tighten the screws.
 
-Photo
+<p align="center">
+  <img src="images/structure_assembly/6.centering.jpg" alt="6.centering" width="400"/>
+</p>
+
 
 7. Screw the spacers into the four corners.
 
-Photo
+<p align="center">
+  <img src="images/structure_assembly/7.spacers.jpg" alt="7.spacers" width="400"/>
+</p>
+
 
 8. Screw the LEDs and photodiode wires into terminal strips of the PCB.
 
-Photo
+<p align="center">
+  <img src="images/structure_assembly/8.wires.jpg" alt="8.wires" width="400"/>
+</p>
 
-9. Put the face plate in the bottom plate, bend the wires of the LEDs and photodiode. Make sure they didn't move in the process.
 
-Photo
+9. Put the face plate in the bottom plate, bend the wires of the LEDs and photodiode. Make sure the LEDs and photodiode didn't move in the process.
+
+<p align="center">
+  <img src="images/structure_assembly/9.center.jpg" alt="9.center" width="400"/>
+</p>
+
 
 10. Screw the top plate. You can now adjust the position of the SD card shield so that it can be removed easily, but without protruding too far. Tighten the screws when the position is good.
 
-Photo
+<p align="center">
+  <img src="images/structure_assembly/10.top.jpg" alt="10.top" width="400"/>
+</p>
+
 
 11. Put the powerbank and the alimentation cable.
+
+<p align="center">
+  <img src="images/structure_assembly/11.battery.jpg" alt="11.battery" width="400"/>
+</p>
+
 
 ## Step 3 : Assemble the waterproof box
 
@@ -128,14 +166,14 @@ In this step, you will need :
 - PVC stripper
 - Laser cutter
 - Paper towel or rag
-- Ø89 and Ø84 hole saws
+- Ø89 mm and Ø84 mm hole saws
 - Angle grinder
 
 <p align="center">
   <img src="images/box_assembly/0.components.jpg" alt="0.components" width="400"/>
 </p>
 
-1.  Cut out the inside of the plugs, one with the Ø89 hole saw, and the other with the Ø84 hole saw. Make sure the holes are at the center of the plugs. Using a laser cutter, cut two PMMA discs, one 96.5 mm in diameter, the other 82.5 mm in diameter. The disc of 82.5 mm diameter needs to be sanded to fit perfectly in the plug. Using an angle grinder, sand one edge of the disc.
+1.  Cut out the inside of the plugs, one with the 89 mm in diameter hole saw, and the other with the 84 mm in diameter hole saw. Make sure the holes are at the center of the plugs. Using a laser cutter, cut two PMMA discs, one 96.5 mm in diameter, the other 82.5 mm in diameter. The disc of 82.5 mm diameter needs to be sanded to fit perfectly in the plug. Using an angle grinder, sand one edge of the disc.
 
 <p align="center">
   <img src="images/box_assembly/1.plugs.jpg" alt="1.plugs" width="400"/>
@@ -143,7 +181,10 @@ In this step, you will need :
 
 2.  Glue the PMMA discs to the plugs : the smallest disc goes into the plug with the smallest hole, on the outside. The largest disc goes into the plug with the largest hole, on the inside of the plug. To glue, start by sanding the surfaces to be glued, then clean them with paint stripper. Apply a generous amount of glue to each surface, and press the pieces together firmly. Leave to dry for at least an hour. Then you can test the watertightness of the adhesive by placing the plugs on the surface of the water. If they float and there is no seepage, the bond is correct.
 
-Photos
+<p align="center">
+  <img src="images/box_assembly/2.glued_plugs.jpg" alt="2.glued_plugs" width="300"/>
+</p>
+
 
 3. Glue the rings for screwing on plugs to the sleeve. As above, sand the surfaces to be glued, then clean them. Apply a generous amount of glue. Leave to dry for at least an hour. You can test for leaks on either side by screwing on the plug with the smallest window and dipping the sleeve halfway into the water. If there is no infiltration, the bond is correct.
 
@@ -153,7 +194,9 @@ Photos
 
 4. Glue the plug with the largest window to one side of the sleeve. Apply a generous amount of glue to the threads of the sleeve and plug. Also apply glue to the gap between the sleeve and the plug, on the outside of the sleeve and on the indside, between the PMMA disc and the sleeve. Leave to dry for several hours. Test for leaks by immersing the sleeve halfway in water. If there are any leaks, add glue to the inside and/or outside of the sleeve where the leaks are. Allow to dry again and try again. You may need to repeat the operation several times until the seal is perfect.
 
-Photo
+<p align="center">
+  <img src="images/box_assembly/4.bottom.jpg" alt="4.bottom" width="400"/>
+</p>
 
 The box is waterproof. The glued plug is the bottom, where LEDs and photodiode are located. The removable plug is on the top. Make sure that the seal is still present in the top cap when you close it, overwhise it may not be waterproof.
 
