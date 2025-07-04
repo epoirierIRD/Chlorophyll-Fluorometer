@@ -1,1 +1,29 @@
-
+cff-version: 1.0.0
+message: "If you use this project, please quote the following work:"
+title: "Chlorophyll-Fluorometer"
+version: "1.0.0"  
+date-released: 2025-07-04
+authors:
+  - Loïc Goumarre (1)
+  - Cécile Plaçais (1)
+  - Agathe Douissard (1)
+  - Viken Tevonian (1)
+  - Olivier Josephiak (1)
+  - Mayssame Ismael (1)
+  - Hugo Le Moal (1)
+  - Merlin Riviere (1)
+  - Nicolas Chabrier (1)
+  - Etienne Chaillot (1)
+  - Damien Depauw (1)
+  - Jérémy Gigandet (1)
+  - Thomas Gysemberg (1)
+  - Brice Hervé (1)
+  - Thomas Quinchon (1)
+  - Laurent Bramerie (1)
+  - Thierry Chartier (1)
+  - Etienne Poirier (2)
+affiliation: 
+  - (1) : Enssat, Lannion, France
+  - (2) : IUEM, Plouzané, France
+license: "CC BY-SA 4.0"  
+url: "https://github.com/EnssatPhotonicsProjects/Chlorophyll-Fluorometer/" 
