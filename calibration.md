@@ -40,7 +40,7 @@ This value corresponds to the concentration you tested.
 1. Draw your measures in a data analysis and visualization program. On the x-axis put the concentration, on the y-axis put the current.
 2. Fit the points with a linear model. You can adjust the ordinate at origin with the value you read in **Step 2**.
 
-For concentrations between 0.5 and 100 µg/L, you should get a line similar to the figure below :
+For concentrations between 1 and 50 µg/L, you should get a line similar to the figure below :
 
 <p align="center">
   <img src="images/Calibration-phytoplankton.png" alt="calibration_line" width="700"/>
