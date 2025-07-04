@@ -204,3 +204,10 @@ The box is waterproof. The glued plug is the bottom, where LEDs and photodiode a
 ## Step 4 : Assemble the fluorometer
 
 Slide the internal structure into the box. It must be at the bottom and must not move. Switch on the battery, and close the box.
+
+<p align="center">
+  <img src="images/Final_prototype1.jpg" alt="Final_prototype1" width="400"/>
+</p>
+<p align="center">
+  <img src="images/Final_prototype2.jpg" alt="Final_prototype2" width="400"/>
+</p>
