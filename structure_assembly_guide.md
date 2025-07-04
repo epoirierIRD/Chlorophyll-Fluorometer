@@ -7,12 +7,10 @@ This guide provides detailed instructions on how to assemble the Chlorophyll-Flu
 Before starting the assembly process, ensure you have the following tools and components ready:
 
 - Components from the [Components List](hardware/components.md)
-- 3D printer
 - PVC glue
 - Sandpaper
 - PVC stripper
 - Laser cutter
-- Screwdriver
 - Screws, nuts, washers, spacers
 - Paper towel or rag
 - Wires (red and black)
@@ -23,7 +21,6 @@ Before starting the assembly process, ensure you have the following tools and co
 ## Step 1 : Assemble the LEDs and photodiode support
 
 Start by soldering wires to the LEDs and photodiode terminal. Pay attention to the polarity of the terminals : you can solder a red wire on the + terminals of the LED and the cathode terminal of the photodiode. A black wire can be soldered on the - terminals of the LEDs and on the anode of the photodiode.
-Print the [3D support](hardware/3D_ready_to_print_LED-Photodiode-Support.stl) with black PLA filament, and a filling density of 50%. Printing takes about 7 hours.
 
 When this is done, you can assemble de following components :
 - Two LEDs
