@@ -34,7 +34,7 @@ If you are prototyping or prefer not to use a PCB, you can assemble the circuit 
 
 ## Step 3: Assemble the Support Structures
 
-Use the provided STL file to 3D print the necessary support structures:
+Use the provided STL file to 3D print the necessary support structures with black PLA filament, and a filling density of 50%. Printing takes about 7 hours : 
 
 - [LED and Photodiode Support](hardware/3D_ready_to_print_LED-Photodiode-Support.stl)
 
