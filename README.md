@@ -93,9 +93,9 @@ Contributions to this project are welcome. Here's how you can contribute:
 ## Avenues for Improvement
 
 - The photodiode becomes saturated when used outdoors in bright light.
-- The PVC box doesn't resist to pressure underwater.
+- The PVC box doesn't resist to high pressure underwater.
 
-Contributions are welcome to improve these points.
+Contributions are welcomed to improve these points.
 
 ## Contributors
 
