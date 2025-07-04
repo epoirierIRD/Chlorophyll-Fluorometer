@@ -114,7 +114,7 @@ Team 2024-2025 :
 - Cécile Plaçais (CecileP28)
 - Agathe Douissard (Douidoui2)
 - Olivier Josephiak (Josephiak)
-- Mayssame Ismael
+- Mayssame Ismael (Goulgoul1)
 - Hugo Le Moal
 - Viken Tevonian
 - Merlin Rivière
