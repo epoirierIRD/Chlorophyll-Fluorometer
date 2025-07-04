@@ -24,7 +24,7 @@ git clone https://github.com/EnssatPhotonicsProjects/Chlorophyll-Fluorometer.git
 
 ### Using a Breadboard
 
-If you are prototyping or prefer not to use a PCB, you can assemble the circuit on a breadboard. Refer to the [Schematic.pdf](hardware/Schematic.pdf) for detailed connections.
+If you are prototyping or prefer not to use a PCB, you can assemble the circuit on a breadboard. Refer to the [Circuit-diagram.pdf](hardware/Circuit-diagram.pdf) for detailed connections.
 
 ### Using a PCB
 
@@ -34,12 +34,11 @@ If you are prototyping or prefer not to use a PCB, you can assemble the circuit 
 
 ## Step 3: Assemble the Support Structures
 
-Use the provided STL files to 3D print the necessary support structures:
+Use the provided STL file to 3D print the necessary support structures:
 
-- [LED and Photodiode Support](STL_file_ready_to_3D_printing/support_led_photodiode.stl)
-- [Arduino Board Support](STL_file_ready_to_3D_printing/support_arduino.stl)
+- [LED and Photodiode Support](hardware/3D_ready_to_print_LED-Photodiode-Support.stl)
 
-Assemble the printed parts according to the instructions provided in the [Assembly Manual](structure_assembly_guide.md).
+Assemble the parts according to the instructions provided in the [Assembly Manual](structure_assembly_guide.md).
 
 ## Step 4: Upload the Arduino Code
 
@@ -58,10 +57,4 @@ Follow the calibration protocol described in the [Calibration Guide](calibration
 
 ## Troubleshooting
 
-If you encounter any issues during the assembly or operation of the device, refer to the [Troubleshooting Guide](troubleshooting.md) or open an issue in the repository.
-
-## Additional Resources
-
-- [Schematic Diagram](hardware/Schematic.pdf)
-- [PCB Design File](path/to/PCB_file)
-- [STL Files for 3D Printing](3D_printing/STL_file_ready_to_3D_printing/)
+If you encounter any issues during the assembly or operation of the device, open an issue in the repository.
