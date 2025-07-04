@@ -27,7 +27,6 @@ When this is done, you can assemble de following components :
 - Photodiode
 - (Red filter : 16 x 20 mm) X3
 - 3D printed support
-- Seal
 
 <p align="center">
   <img src="images/3D_printed_structure_assembly/0.components.jpg" alt="0.components" width="400"/>
@@ -52,11 +51,6 @@ When this is done, you can assemble de following components :
   <img src="images/3D_printed_structure_assembly/3.Filters.jpg" alt="3.Filters" width="400"/>
 </p>
 
-4. Glue the seal under the support.
-
-<p align="center">
-  <img src="images/3D_printed_structure_assembly/4.Seal.jpg" alt="4.Seal" width="400"/>
-</p>
 
 
 
@@ -75,13 +69,13 @@ The materials required for this step are :
 - a powerbank (100 x 50 x 2.5) mm max
 - a dual output power supply and angled USB output cable
 - The LEDs and photodiode support made in the previous step
-- black PMMA sheet, thickness 3 mm
-- transparent PMMA sheet, thickness 3 mm
+- matt black PMMA sheet, thickness 3 mm
+- PMMA sheet, thickness 2 mm
 - Screwdriver
 - Laser cutter
 
 Photo
-1. Cut the structure in the PMMA sheets with the laser cutter. In transparent PMMA, cut the [top plate](...). In black PMMA, cut the [face and bottom plates](...).
+1. Cut the structure in the PMMA sheets with the laser cutter. In 2 mm PMMA, cut the [top plate](hardware/Ready_to_laser_cut_Top-Plate). In black PMMA, cut the [face and bottom plates](hardware/Ready_to_laser_cut_Structure-Plans.svg).
 
 Photo
 
