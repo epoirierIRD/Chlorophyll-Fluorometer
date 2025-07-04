@@ -43,7 +43,7 @@ This value corresponds to the concentration you tested.
 For concentrations between 0.5 and 100 µg/L, you should get a line similar to the figure below :
 
 <p align="center">
-  <img src="images/calibration.png" alt="calibration_line" width="700"/>
+  <img src="images/Calibration-phytoplankton.png" alt="calibration_line" width="700"/>
 </p>
 
 Your fluorometer is now calibrated.
