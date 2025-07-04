@@ -121,12 +121,13 @@ void loop() {
     ledState = false;
 
     if (filteredCount > 0) {
-      //float avg = filteredSum / filteredCount;
+      //float avg = filteredSum / filteredCount; // voltage value
       float avg = (filteredSum / filteredCount)*10000;
       u8g.firstPage();
       do {
       u8g.setPrintPos(1, 14);
       u8g.setFont(u8g_font_helvR14);
+      //u8g.println("Avg V : "); //print voltage value
       u8g.println("Avg nA : ");
       u8g.setPrintPos(1, 35);
       u8g.print(avg);
