@@ -81,7 +81,7 @@ The materials required for this step are :
   <img src="images/structure_assembly/0.components.jpg" alt="0.components" width="500"/>
 </p>
 
-1. Cut the structure in the PMMA sheets with the laser cutter. In 2 mm PMMA, cut the [top plate](hardware/Ready_to_laser_cut_Top-Plate). In black PMMA, cut the [face and bottom plates](hardware/Ready_to_laser_cut_Structure-Plans.svg).
+1. Cut the structure in the PMMA sheets with the laser cutter. In 2 mm PMMA, cut the [top plate](hardware/Ready_to_laser_cut_Top-Plate.svg). In black PMMA, cut the [face and bottom plates](hardware/Ready_to_laser_cut_Structure-Plans.svg).
 
 <p align="center">
   <img src="images/structure_assembly/1.laser_cutter.jpg" alt="1.laser_cutter" width="400"/>
