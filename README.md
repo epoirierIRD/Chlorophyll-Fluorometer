@@ -113,7 +113,7 @@ Team 2024-2025 :
 - Loïc Goumarre (minimadcap)
 - Cécile Plaçais (CecileP28)
 - Agathe Douissard (Douidoui2)
-- Olivier Josephiak
+- Olivier Josephiak (Josephiak)
 - Mayssame Ismael
 - Hugo Le Moal
 - Viken Tevonian
