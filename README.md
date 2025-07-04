@@ -73,17 +73,18 @@ For a detailed list of components with the references, please refer to the [Comp
 
 For component assembly, we provide a PCB file and a schematic diagram. It is possible to do everything with a breadboard without PCB.
 
-- **Technical Drawing:** A detailed schematic diagram is provided here: [Schematic.pdf](path/to/Schematic.pdf). This diagram includes component placement and connection details.
+- **Technical Drawing:** A detailed schematic diagram is provided here: [Circuit-diagram.pdf](hardware/Circuit-diagram.pdf). This diagram includes component placement and connection details.
 
 - **PCB File:** The PCB design file is available in the repository: [PCB](). Use this file to order a PCB from a manufacturer or print it if you have the necessary equipment.
 
 ### Assemble Support
 
-- Use the provided STL files to print the necessary supports. Links to the files will be provided, including files for the [LED and photodiode support](STL_file_ready_to_3D_printing/support_led_photodiode.stl) and the [board support](STL_file_ready_to_3D_printing/support_arduino.stl).
+- Use the provided STL files to print the necessary support : [LED and photodiode support](hardware/3D_ready_to_print_LED-Photodiode-Support.stl).
+- Use the [plans](hardware/Ready_to_laser_cut_Structure-Plans.svg) to cut the PMMA structure with a laser cutter.
 
 ### Arduino
 
-- Open the `.ino` file in the Arduino IDE and upload it to your Arduino board. There will be multiple codes available to test the correct connection. The provided codes are modular but the main one allows displaying the photodiode current in nA.
+- Open the [`.ino`](arduino/main.ino) file in the Arduino IDE and upload it to your Arduino board. The provided code allows displaying the photodiode current in nA.
 
 ### Calibration
 
