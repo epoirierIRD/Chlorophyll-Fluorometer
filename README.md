@@ -143,4 +143,4 @@ Hence, we would like to thank to Maël Guibré (student at IUT de Lannion) for t
 
 ## License
 
-This project is licensed under [License Name]. Please see the `LICENSE` file for more details.
+This project is licensed under [CC BY-SA 4.0]. Please see the [`LICENSE`](LICENSE.md) file for more details.
