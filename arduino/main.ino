@@ -1,13 +1,11 @@
 #include <Wire.h>
 #include <Adafruit_ADS1X15.h>
-#include <Adafruit_GFX.h>
-#include <Adafruit_SSD1306.h>
+#include "U8glib.h"
+#include "SPI.h"
+#include "SD.h"
 
 // === Display Setup ===
-#define SCREEN_WIDTH 128
-#define SCREEN_HEIGHT 64
-#define OLED_RESET    -1
-Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+U8GLIB_SSD1306_128X64 u8g(U8G_I2C_OPT_NONE);
 
 // === ADC ===
 Adafruit_ADS1115 ads;
@@ -32,22 +30,23 @@ float filteredSum = 0;
 int filteredCount = 0;
 const int maxFiltered = 200;
 
+// === SD Card Shield ===
+File currents;
+const int chipSelect = 4;  
+
 void setup() {
   pinMode(ledPin, OUTPUT);
   digitalWrite(ledPin, LOW);
 
-  // Serial.begin(115200); // Optional debug
+   Serial.begin(115200); // Optional debug
 
-  // === Display Init ===
-  if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
-    while (true);
-  }
-  display.clearDisplay();
-  display.setTextColor(SSD1306_WHITE);
-  display.setTextSize(2);
-  display.setCursor(0, 0);
-  display.print("Starting...");
-  display.display();
+// === Display Init ===
+  u8g.firstPage();
+  do {
+    u8g.setColorIndex(1); // 1 for white text on black background
+    u8g.setFont(u8g_font_7x14); // simple font
+    u8g.drawStr(0,12,"Starting...");
+  } while (u8g.nextPage());
   delay(1000);
 
   // === ADC Init ===
@@ -63,6 +62,34 @@ void setup() {
   TIMSK2 |= (1 << OCIE2A);
   sei();
 
+  // === SD Card Shield Init ===
+  pinMode(SS, OUTPUT);
+  if (!SD.begin(SPI_HALF_SPEED, chipSelect)) { 
+    u8g.firstPage();
+    do {
+      u8g.setFont(u8g_font_7x14);
+      u8g.setPrintPos(1, 12);
+      u8g.print("SD initialization");
+      u8g.setPrintPos(1, 24);
+      u8g.print("failed");
+    } while (u8g.nextPage());
+    delay(10000);}
+
+  currents = SD.open("currents.txt", FILE_WRITE);
+  if (currents) {
+    currents.println("Time (ms) Current (nA)");
+    currents.close();
+  } else {
+    u8g.firstPage();
+    do {
+      u8g.setFont(u8g_font_7x14);
+      u8g.setPrintPos(1, 12);
+      u8g.print("error opening");
+      u8g.setPrintPos(1, 24);
+      u8g.print("currents.txt");
+    } while (u8g.nextPage());
+    delay(10000);}
+  
   lastWindowStart = millis();
 }
 
@@ -78,11 +105,12 @@ void loop() {
     maIndex = 0;
     maCount = 0;
     lowSampleReady = false;
-    display.clearDisplay();
-    display.setTextSize(1);
-    display.setCursor(0, 0);
-    display.print("Sampling...");
-    display.display();
+    u8g.firstPage();
+    do {
+    u8g.setPrintPos(1, 14);
+    u8g.setFont(u8g_font_helvR14);
+    u8g.print("Sampling...");
+    } while (u8g.nextPage());
     delay(500);
   }
 
@@ -92,18 +120,31 @@ void loop() {
     PORTD &= ~(1 << PORTD3);  // LED OFF
     ledState = false;
 
-    display.clearDisplay();
-    display.setTextSize(2);
-    display.setCursor(0, 0);
     if (filteredCount > 0) {
-      float avg = filteredSum / filteredCount;
-      display.print("Avg V:");
-      display.setCursor(0, 30);
-      display.print(avg, 5);
+      //float avg = filteredSum / filteredCount;
+      float avg = (filteredSum / filteredCount)*10000;
+      u8g.firstPage();
+      do {
+      u8g.setPrintPos(1, 14);
+      u8g.setFont(u8g_font_helvR14);
+      u8g.println("Avg nA : ");
+      u8g.setPrintPos(1, 35);
+      u8g.print(avg);
+      } while (u8g.nextPage());
+      currents = SD.open("currents.txt", FILE_WRITE);
+      currents.print(now);
+      currents.print(" ");
+      currents.println(avg);
+      currents.close();
     } else {
-      display.print("No data");
+
+      u8g.firstPage();
+      do {
+        u8g.setPrintPos(1, 14);
+        u8g.setFont(u8g_font_helvR14); 
+        u8g.print("No data");
+      } while (u8g.nextPage());
     }
-    display.display();
     delay(1000);
   }
 
