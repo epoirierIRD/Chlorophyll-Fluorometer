@@ -6,13 +6,13 @@
 
 ## Description
 
-This project aims to develop a portable and low-cost fluorometer for detecting chlorophyll a concentration, a key indicator of phytoplankton presence. The project is conducted by students from ENSSAT in collaboration with the European Institute for Marine Studies (IUEM) and is part of an open-source initiative to facilitate easy and cost-effective replication of the device.
+This project aims to develop a portable and low-cost fluorometer for detecting chlorophyll-a concentration, a key indicator of phytoplankton presence. The project is conducted by students from ENSSAT in collaboration with the European Institute for Marine Studies (IUEM) and is part of an open-source initiative to facilitate easy and cost-effective replication of the device.
 
 This GitHub repository is intended to provide all necessary resources and instructions to reproduce the product.
 
 ## Features
 
-- Measures chlorophyll a concentration in the range of [1-50] µg/L.
+- Measures chlorophyll-a concentration in the range of [1-50] µg/L.
 - Low-cost (approximately $200), low-tech, and open-source design.
 - Portable
 
@@ -22,7 +22,7 @@ This GitHub repository is intended to provide all necessary resources and instru
   <img src="images/principle_diagram.png" alt="principle diagram" width="350"/>
 </p>
 
-The principle of fluorimetry is based on the fact that chlorophyll a in Phytoplankton, when excited by a blue light source at a wavelength of 430 nm, re-emits light in the red spectrum at 669 nm. In practice, blue light is directed at a sample containing chlorophyll a, causing it to fluoresce red. This red fluorescence is captured by a photodetector, enabling the measurement of chlorophyll a concentration in the sample.
+The principle of fluorimetry is based on the fact that chlorophyll-a in phytoplankton, when excited by a blue light source at a wavelength of 430 nm, re-emits light in the red spectrum at 669 nm. In practice, blue light is directed at a sample containing chlorophyll-a, causing it to fluoresce red. This red fluorescence is captured by a photodetector, enabling the measurement of chlorophyll-a concentration in the sample.
 
 ## Functionality
 
@@ -30,7 +30,7 @@ The principle of fluorimetry is based on the fact that chlorophyll a in Phytopla
   <img src="images/Block_diagram.png" alt="Block diagram" width="400"/>
 </p>
 
-This setup improves the accuracy of measurements by reducing interference from unwanted light sources. In this fluorimeter, the Arduino board enables modulation and demodulation to eliminate ambient light. A red filter is used to prevent the detection of unwanted light used to stimulate chlorophyll (blue), allowing only the chlorophyll emission wavelength (red) to pass through to the photodiode.
+This setup improves the accuracy of measurements by reducing interference from unwanted light sources. In this fluorimeter, the Arduino board enables modulation and demodulation to eliminate ambient light. A red filter is used to prevent the detection of unwanted blue light used to stimulate chlorophyll, allowing only the red chlorophyll emission wavelength to pass through to the photodiode.
 
 ## Components
 
@@ -59,7 +59,6 @@ For a detailed list of components with the references, please refer to the [Comp
 - 3D printer
 - Soldering equipment
 - Laser cutter
-- ...
 
 ### Installation Steps
 
@@ -106,6 +105,11 @@ Contributions to this project are welcome. Here's how you can contribute:
 3. **Submit a Pull Request** with a detailed description of your changes.
 
 ## Avenues for Improvement
+
+- The photodiode becomes saturated when used outdoors in bright light.
+- The PVC box doesn't resist to pressure underwater.
+
+Contributions are welcome to improve these points.
 
 ## Contributors
 
