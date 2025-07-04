@@ -68,27 +68,13 @@ For a detailed list of components with the references, please refer to the [Comp
    git clone https://github.com/EnssatPhotonicsProjects/Chlorophyll-Fluorometer.git
    ```
 
-### Assemble the Electronic Components
+### Assemble the fluorometer
 
-For component assembly, we provide a PCB file and a schematic diagram. It is possible to do everything with a breadboard without PCB.
+Follow the steps of the [assembly guide](assembly_guide.md) to build the fluorometer.
 
-- **Technical Drawing:** A detailed schematic diagram is provided here: [Circuit-diagram.pdf](hardware/Circuit-diagram.pdf). This diagram includes component placement and connection details.
-
-- **PCB File:** The PCB design file is available in the repository: [PCB](). Use this file to order a PCB from a manufacturer or print it if you have the necessary equipment.
-
-### Assemble Support
-
-- Use the provided STL files to print the necessary support : [LED and photodiode support](hardware/3D_ready_to_print_LED-Photodiode-Support.stl).
-- Use the [plans](hardware/Ready_to_laser_cut_Structure-Plans.svg) to cut the PMMA structure with a laser cutter.
-
-### Arduino
-
-- Open the [`.ino`](arduino/main.ino) file in the Arduino IDE and upload it to your Arduino board. The provided code allows displaying the photodiode current in nA.
-
-### Calibration
-
-_It is necessary to have a standard fluorimeter to calibrate our low cost fluorimeter_
-- Follow the [calibration protocol](calibration.md) described in the documentation to adjust the fluorometer according to local conditions.
+<p align="center">
+  <img src="images/Final_prototype.jpg" alt="Final prototype" width="400"/>
+</p>
 
 ## To contribute
 
