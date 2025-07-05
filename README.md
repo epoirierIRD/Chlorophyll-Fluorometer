@@ -6,9 +6,9 @@
 
 ## Description
 
-This project aims to develop a portable and low-cost fluorometer for detecting chlorophyll-a concentration, a key indicator of phytoplankton presence. The project is conducted by students from ENSSAT in collaboration with the European Institute for Marine Studies (IUEM) and is part of an open-source initiative to facilitate easy and cost-effective replication of the device.
+This project aims to develop a portable and low-cost fluorometer for detecting chlorophyll-a concentration, a key indicator of phytoplankton presence. The project is conducted by students in photonics from Enssat in collaboration with the European Institute for Marine Studies (IUEM) and is part of an open-source initiative to facilitate easy and cost-effective replication of the device.
 
-This GitHub repository is intended to provide all necessary resources and instructions to reproduce the product.
+This GitHub repository contains all the necessary resources and instructions for making the device.
 
 The present document aims to provide an overview of some technical aspects of our fluorometer.
 
