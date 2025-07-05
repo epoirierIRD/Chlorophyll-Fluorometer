@@ -18,13 +18,13 @@ The present document aims to provide an overview of some technical aspects of ou
 - Low-cost (approximately $200), low-tech, and open-source design.
 - Portable
 
-## Principle of fluorimetry
+## Principle of fluorometry
 
 <p align="center">
   <img src="images/principle_diagram.png" alt="principle diagram" width="350"/>
 </p>
 
-The principle of fluorimetry is based on the fact that chlorophyll-a in phytoplankton, when excited by a blue light source at a wavelength of 430 nm, re-emits light in the red spectrum around 670 nm. This red fluorescence is detected by a photodetector, enabling the measurement of chlorophyll-a concentration in the sample.
+The principle of fluorometry is based on the fact that chlorophyll-a in phytoplankton, when excited by a blue light source at a wavelength of 430 nm, re-emits light in the red spectrum around 670 nm. This red fluorescence is detected by a photodetector, enabling the measurement of chlorophyll-a concentration in the sample.
 
 ## Functionality
 
