@@ -24,7 +24,7 @@ The present document aims to provide an overview of some technical aspects of ou
   <img src="images/principle_diagram.png" alt="principle diagram" width="350"/>
 </p>
 
-The principle of fluorimetry is based on the fact that chlorophyll-a in phytoplankton, when excited by a blue light source at a wavelength of 430 nm, re-emits light in the red spectrum at 669 nm. In practice, blue light is directed at a sample containing chlorophyll-a, causing it to fluoresce red. This red fluorescence is captured by a photodetector, enabling the measurement of chlorophyll-a concentration in the sample.
+The principle of fluorimetry is based on the fact that chlorophyll-a in phytoplankton, when excited by a blue light source at a wavelength of 430 nm, re-emits light in the red spectrum around 670 nm. This red fluorescence is detected by a photodetector, enabling the measurement of chlorophyll-a concentration in the sample.
 
 ## Functionality
 
@@ -32,7 +32,7 @@ The principle of fluorimetry is based on the fact that chlorophyll-a in phytopla
   <img src="images/Block_diagram.png" alt="Block diagram" width="400"/>
 </p>
 
-This setup improves the accuracy of measurements by reducing interference from unwanted light sources. In this fluorimeter, the Arduino board enables modulation and demodulation to eliminate ambient light. A red filter is used to prevent the detection of unwanted blue light used to stimulate chlorophyll, allowing only the red chlorophyll emission wavelength to pass through to the photodiode.
+With our setup, high sensitivity is achieved by usind two LEDs and a large-area photodiode to collect more efficiently fluorescence. A red filter is used to prevent the detection of wavelengths other than red. The Arduino board enables modulation and demodulation to eliminate ambient red light.
 
 ## Components
 
@@ -40,13 +40,13 @@ The main components are:
 
 | Component | Description |
 |-----------|-------------|
-| LED | Light Emitting Diode for excitation |
-| Photodiode | Detects fluorescence |
+| LED | Light Emitting Diode for blue excitation |
+| Photodiode | Detects red fluorescence |
 | Arduino | Microcontroller for processing |
 | ADC | Analog to Digital Converter |
-| Transistor | LED modulation |
-| Amplifier | Enhances signal |
-| OLED Screen | Shows values |
+| Transistor | For LED power supply |
+| Amplifier | For signal enhancement|
+| OLED Screen | Displays values |
 | SD Card Shield | Saves values in an SD Card |
 
 
@@ -95,7 +95,7 @@ Contributions to this project are welcome. Here's how you can contribute:
 ## Avenues for Improvement
 
 - The photodiode becomes saturated when used outdoors in bright light.
-- The PVC box doesn't resist to high pressure underwater.
+- The PVC box may not withstand high pressure underwater.
 
 Contributions are welcomed to improve these points.
 
