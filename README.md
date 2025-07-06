@@ -78,6 +78,13 @@ Follow the steps of the [assembly guide](assembly_guide.md) to build the fluorom
   <img src="images/Final_prototype.jpg" alt="Final prototype" width="400"/>
 </p>
 
+## Avenues for Improvement
+
+- The photodiode becomes saturated when used outdoors in bright light.
+- The PVC box may not withstand high pressure underwater.
+
+Contributions are welcomed to improve these points.
+
 ## To contribute
 
 Contributions to this project are welcome. Here's how you can contribute:
@@ -91,13 +98,6 @@ Contributions to this project are welcome. Here's how you can contribute:
 2. **Make Your Changes** and test them thoroughly.
 
 3. **Submit a Pull Request** with a detailed description of your changes.
-
-## Avenues for Improvement
-
-- The photodiode becomes saturated when used outdoors in bright light.
-- The PVC box may not withstand high pressure underwater.
-
-Contributions are welcomed to improve these points.
 
 ## Contributors
 
