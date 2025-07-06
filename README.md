@@ -131,7 +131,7 @@ The fluorometer project started in september 2023 with a first team of Enssat st
 
 We had the chance to meet Michel Hignette (oceanographer and president of ArmorScience, Lannion, France). We are very grateful to him for sharing his knowledge on phytoplankton.
 
-Hence, we would like to thank to Maël Guibré (student at IUT de Lannion) for the time he took to make some videos of the project.
+Hence, we would like to thank Maël Guibré (student at IUT de Lannion) for the time he took to make some videos of the project.
 
 ## License
 
