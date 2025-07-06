@@ -107,7 +107,7 @@ Team 2024-2025 :
 - Agathe Douissard (Douidoui2)
 - Olivier Josephiak (Josephiak)
 - Mayssame Ismael (Goulgoul1)
-- Hugo Le Moal
+- Hugo Le Moal (Hugo)
 - Viken Tevonian
 - Merlin Rivière
 
