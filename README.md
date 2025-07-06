@@ -87,17 +87,19 @@ Contributions are welcomed to improve these points.
 
 ## To contribute
 
-Contributions to this project are welcome. Here's how you can contribute:
+Contributions to this project are welcomed. Follow this procedure contribute:
 
-1. **Fork the Repository** and create your branch:
+1. **Fork the repository** and create your branch:
 
    ```bash
    git checkout -b my-new-feature
    ```
 
-2. **Make Your Changes** and test them thoroughly.
+2. **Make your changes** and test them thoroughly.
 
-3. **Submit a Pull Request** with a detailed description of your changes.
+3. **Document your changes** in the [EXTERNAL_CONTRIBUTIONS](EXTERNAL_CONTRIBUTIONS.md) file. Begin the file with your name, location and date.
+
+4. **Submit a Pull Request** with a detailed description of your changes.
 
 ## Contributors
 
