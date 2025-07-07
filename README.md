@@ -10,7 +10,7 @@ This project aims to develop a portable and low-cost fluorometer for detecting c
 
 This GitHub repository contains all the necessary resources and instructions for making the device.
 
-The document [Fluoremeter overview] aims to provide an overview of the technical aspects of our fluorometer.
+The document [Fluoremeter overview](Fluorometer_overview.pdf) aims to provide an overview of the technical aspects of our fluorometer.
 
 ## Features
 
