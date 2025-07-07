@@ -16,6 +16,8 @@
 | Capacitor | 10 μF | 2 | <1 $ |
 | OLED Screen | SSD1306 | 1 | 1.72 $ |
 | SD Card Shield | TC-8579888 | 1 | 10 $ |
+| Powerbank | Output 5 V - 2.4 A, dim. 100 x 50 x 2.5 mm max | 1 | 20 $ |
+| Alimentation cable | Power splitter 5.5 x 2.1 mm CA50-2 + angled USB plug (homemade) | 1 | 3 $ |
 
 ## Case and support
 
