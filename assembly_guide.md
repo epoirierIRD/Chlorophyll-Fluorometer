@@ -28,7 +28,7 @@ If you are prototyping or prefer not to use a PCB, you can assemble the circuit 
 
 ### Using a PCB
 
-1. Download the PCB design file from the repository: [PCB File](hardware/PCB.brd).
+1. Download the PCB design file from the repository: [PCB File](hardware/Fluorometer_PCB/).
 2. Order the PCB from a manufacturer or print it if you have the necessary equipment.
 3. Solder the components onto the PCB following the schematic diagram.
 
