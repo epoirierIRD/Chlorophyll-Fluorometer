@@ -13,7 +13,7 @@
 | Operational amplifier | TL081 | [Mouser - 595-TL081CP](https://www.mouser.fr/ProductDetail/595-TL081CP) | 1 | <1 € |
 | Voltage converter | MAX660 MAX660CPA+ | [Mouser 700-MAX660CPA](https://www.mouser.fr/ProductDetail/700-MAX660CPA) | 1 | 8.39 € |
 | Resistors 100 kΩ brown black yellow gold | RES 100K OHM 5% 1/4W AXIAL | [Mouser - 660-CFS1-4CT52R104J](https://www.mouser.fr/ProductDetail/660-CFS1-4CT52R104J) | 1 | 0.10 € |
-| Resistors 273 Ω red violet brown gold | RES 270 OHM 10% 1W AXIAL | [Mouser - 588-OX-270-E](https://www.mouser.fr/ProductDetail/588-OX-270-E) | 1 | 2.46 € |
+| Resistors 273 Ω red violet brown gold | to be updated | [to be updated]() | 1 | 2.46 € |
 | Resistors 4.75 Ω +/- 1% yellow violet green silver brown | RES 4.75 OHM 0.6W 1% AXIAL MBB02070C4758FC100 | [Mouser - 594-MBB02070C4758FC1](https://www.mouser.fr/ProductDetail/594/MBB02070C4758FC1) | 1 | <1 € |
 | Capacitor 10 μF, 160V | UVR2C100MPD | [Mouser - 647-UVR2C100MPD](https://www.mouser.fr/ProductDetail/647-UVR2C100MPD) | 2 | <1€ |
 | OLED Screen 128x64 Dot Matrix | DFRRobot DFR0650 SSD1306 | [Mouser - DFR0650](https://www.mouser.fr/ProductDetail/DFRobot/DFR0650?qs=vmHwEFxEFR9nN6dqGZZLUA%3D%3D) | 1 | 13.05 € |
