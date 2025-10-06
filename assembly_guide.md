@@ -29,8 +29,10 @@ If you are prototyping or prefer not to use a PCB, you can assemble the circuit 
 ### Using a PCB
 
 1. Download the PCB design file from the repository: [PCB File](hardware/Fluorometer_PCB/).
-2. Order the PCB from a manufacturer or print it if you have the necessary equipment.
-3. Solder the components onto the PCB following the schematic diagram.
+2. Order the PCB from a manufacturer or print it if you have the necessary equipment. For example, go to [JLCPCB](https://jlcpcb.com/), and in the field "Add gerber files" drop a zip of the folder /CAMoutputs situated at [this location](hardware/Fluorometer_PCB/).
+You will receive a quality pro PCB and you can even choose the color.
+3. Solder the components onto the PCB following the schematic diagram. 
+Tip: As you will solder with you PCB upside down, start with the thin components (resistors,...) and finish with the thick ones (headers, capacitor, ...).
 
 ## Step 3: Assemble the Support Structures
 
