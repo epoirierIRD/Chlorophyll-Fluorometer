@@ -23,7 +23,7 @@
 | Powerbank[²] | Output 5 V - 2.4 A, dim. 100 x 50 x 25 mm max | [VRURC 2000mAh mini power bank](https://www.amazon.fr/gp/product/B099F29H7Y?smid=A2BNE5LRDUXQ6R&th=1) | 1 | 30 € |
 | Alimentation cable part 1 | Power splitter 5.5 x 2.1 mm CA50-2 | [Gotronic 49105](https://www.gotronic.fr/art-dedoubleur-d-alimentation-5-5-x-2-1-mm-ca50-2-24581.htm) + angled USB plug (homemade) | 1 | 2.65 € |
 | Alimentation cable part 2 | USB cable male A right angled + USB male A | [TL494-ND Digikey UR020-006-RA](https://www.digikey.fr/fr/products/detail/eaton-tripp-lite/UR020-006-RA/4767696) | 1 | 7.85 € |
-| DC Power Connector| DC10A, Jack, 5 A, 2.1 mm, PCB Mount, Solder, CLIFF FC68148  | [Franell 224959](https://fr.farnell.com/en-FR/cliff-electronic-components/fc68148/conn-dc-power-jack-2-1mm-5a-12v/dp/224959?CMP=GRHB-OCTOPART) | 1 | 6.57 € |
+| DC Power Connector| DC10A, Jack, 5 A, 2.1 mm, PCB Mount, Solder, CLIFF FC68148  | [Farnell 224959](https://fr.farnell.com/en-FR/cliff-electronic-components/fc68148/conn-dc-power-jack-2-1mm-5a-12v/dp/224959?CMP=GRHB-OCTOPART) | 1 | 6.57 € |
 
 
 [¹]LED-Supply does not have a reseller in Europe for integrated LED on PCB. LED and PCB(eval-board) can be bought separately from European reseller and assembled. References to come shortly  
