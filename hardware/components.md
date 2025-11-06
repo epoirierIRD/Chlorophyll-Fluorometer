@@ -17,7 +17,7 @@
 | Resistors 100 kΩ brown black yellow gold | Through Hole Resistor, 100 kohm, 250 mW, ± 1%, Axial Leaded, 250 V| [Farnell - 9341129](https://fr.farnell.com/en-FR/multicomp-pro/mf25-100k/res-100k-1-0-25w-axial-metal-film/dp/9341129) | 1 | 0.10 € |
 | Resistors 270 Ω red violet brown gold | Through Hole Resistor, 270 ohm, MCF Series, 250 mW, ± 5%, Axial Leaded, 250 V, MCF 0.25W 270R | [Farnell - 9339353](https://fr.farnell.com/en-FR/multicomp-pro/mcf-0-25w-270r/res-270r-5-250mw-axial-carbon/dp/9339353) | 1 | 0.04€ |
 | Resistors 4.75 Ω +/- 1% yellow violet green silver brown | Through Hole Resistor, 4.7 ohm, MF25 Series, 250 mW, ± 1%, Axial Leaded, 250 V, MF25 4R7 | [Farnell - 9341994](https://fr.farnell.com/en-FR/multicomp-pro/mf25-4r7/res-4r7-1-250mw-axial-metal-film/dp/9341994) | 1 | 0.12 € |
-| Capacitor 10 μF, 160V | UVR2C100MPD | [Mouser - 647-UVR2C100MPD](https://www.mouser.fr/ProductDetail/647-UVR2C100MPD) | 2 | <1€ |
+| Capacitor 150 μF, 16V | Electrolytic Capacitor, 150 µF, 16 V, ± 20%, Radial Leaded, 2000 hours @ 105°C, Polar | [Farnell - 3131982](https://fr.farnell.com/wurth-elektronik/860020373008/condensateur-150uf-16v-alu-elec/dp/3131982) | 2 | 0.16€ |
 | OLED Screen 128x64 Dot Matrix | DFRRobot DFR0650 SSD1306 | [Mouser - DFR0650](https://www.mouser.fr/ProductDetail/DFRobot/DFR0650?qs=vmHwEFxEFR9nN6dqGZZLUA%3D%3D) | 1 | 13.05 € |
 | SD Card Shield | TRU COMPONENTS TC-8579888 | [GoTronic - 28506](https://www.gotronic.fr/art-module-carte-sd-gt126-28506.htm) | 1 | 9.49 € |
 | Powerbank[²] | Output 5 V - 2.4 A, dim. 100 x 50 x 25 mm max | [VRURC 2000mAh mini power bank](https://www.amazon.fr/gp/product/B099F29H7Y?smid=A2BNE5LRDUXQ6R&th=1) | 1 | 30 € |
