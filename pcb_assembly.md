@@ -20,9 +20,9 @@ a PCB manufacturer (ex: JLCPCB in China, Beta Layout EU). Got the the website an
  
  This is what you should see on the pcb manufacturer website:
  <p float="left">
-  <img src="/hardware/Fluorometer_PCB/acourtay_pcb_recto.png" width="300" />
-  <img src="/hardware/Fluorometer_PCB/acourtay_pcb_verso.png" width="300" />
+  <img src="/hardware/Fluorometer_PCB/acourtay_pcb_recto.png" width="400" />
+  <img src="/hardware/Fluorometer_PCB/acourtay_pcb_verso.png" width="400" />
 </p>
 
-## Step 2: order the PCB
+## Step 2: Soldering the components step by step in good order
 
