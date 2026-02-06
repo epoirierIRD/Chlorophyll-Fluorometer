@@ -20,8 +20,8 @@ a PCB manufacturer (ex: JLCPCB in China, Beta Layout EU). Got the the website an
  
  This is what you should see on the pcb manufacturer website:
  <p float="left">
-  <img src="acourtay_pcb_recto.png" width="100" />
-  <img src="acourtay_pcb_verso.png" width="100" />
+  <img src="/hardware/Fluorometer_PCB/acourtay_pcb_recto.png" width="300" />
+  <img src="/hardware/Fluorometer_PCB/acourtay_pcb_verso.png" width="300" />
 </p>
 
 ## Step 2: order the PCB
