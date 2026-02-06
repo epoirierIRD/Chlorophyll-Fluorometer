@@ -182,8 +182,9 @@ depend on the quality of the caps and gaskets screwed on the plugs
    to be sanded to fit perfectly in the plug. Using an angle grinder, sand one edge of the disc.
    
 <p align="center">
-  <img src="/images/box_assembly/drilling_hole.jpg" width="400" />
-  <img src="images/box_assembly/1.plugs.jpg" width="400" />
+  <img src="/images/box_assembly/securing_cap.jpg" width="200" />
+  <img src="/images/box_assembly/drilling_hole.jpg" width="200" />
+  <img src="images/box_assembly/1.plugs.jpg" width="200" />
 </p>
 
 2.  Glue the PMMA discs to the plugs : the smallest disc goes into the plug with the smallest hole, on the outside. The largest disc goes into the plug with the largest hole, on the inside of the plug. To glue, start by sanding the surfaces to be glued, then clean them with paint stripper. Apply a generous amount of glue to each surface, and press the pieces together firmly. Leave to dry for at least an hour. Then you can test the watertightness of the adhesive by placing the plugs on the surface of the water. If they float and there is no seepage, the bond is correct.
