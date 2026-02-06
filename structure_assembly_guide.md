@@ -158,9 +158,9 @@ The materials required for this step are :
 ## Step 3 : Assemble the waterproof box
 
 In this step, you will need :
-- PVC sleeve
-- Two PVC inspection plugs
-- transparent PMMA plate
+- 100mm PVC sleeve
+- Two 100mm PVC inspection plugs with caps
+- transparent PMMA plate 3mm
 - PVC glue
 - Sandpaper
 - PVC stripper
@@ -169,14 +169,21 @@ In this step, you will need :
 - Ø89 mm and Ø84 mm hole saws
 - Angle grinder
 
+⚠️ Choose good quality PVC sleeve and plugs and caps, the waterproofing will
+depend on the quality of the caps and gaskets screwed on the plugs
+
 <p align="center">
   <img src="images/box_assembly/0.components.jpg" alt="0.components" width="400"/>
 </p>
 
-1.  Cut out the inside of the plugs, one with the 89 mm in diameter hole saw, and the other with the 84 mm in diameter hole saw. Make sure the holes are at the center of the plugs. Using a laser cutter, cut two PMMA discs, one 96.5 mm in diameter, the other 82.5 mm in diameter. The disc of 82.5 mm diameter needs to be sanded to fit perfectly in the plug. Using an angle grinder, sand one edge of the disc.
-
+1.  Cut out the inside of the plugs, one with the 89 mm in diameter hole saw, and the other with
+ the 84 mm in diameter hole saw. Make sure the holes are at the center of the plugs. Using a laser cutter,
+  cut two PMMA discs, one 96.5 mm in diameter, the other 82.5 mm in diameter. The disc of 82.5 mm diameter needs
+   to be sanded to fit perfectly in the plug. Using an angle grinder, sand one edge of the disc.
+   
 <p align="center">
-  <img src="images/box_assembly/1.plugs.jpg" alt="1.plugs" width="400"/>
+  <img src="/images/box_assembly/drilling_hole.jpg" width="400" />
+  <img src="images/box_assembly/1.plugs.jpg" width="400" />
 </p>
 
 2.  Glue the PMMA discs to the plugs : the smallest disc goes into the plug with the smallest hole, on the outside. The largest disc goes into the plug with the largest hole, on the inside of the plug. To glue, start by sanding the surfaces to be glued, then clean them with paint stripper. Apply a generous amount of glue to each surface, and press the pieces together firmly. Leave to dry for at least an hour. Then you can test the watertightness of the adhesive by placing the plugs on the surface of the water. If they float and there is no seepage, the bond is correct.
