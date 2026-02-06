@@ -14,7 +14,7 @@ repository https://github.com/EnssatPhotonicsProjects/Chlorophyll-Fluorometer (n
 ### 🚨 Warnings
 - This project is a student based innovation. It is under development, replicate with caution
 - The fluorometer has noot been validated in situ for Chla measurements
-- It is not recommended to build it to have accurate measures of Chl accurate in situ
+- It is not recommended to build it to have accurate measures of Chl a in situ
 
 ### ✅ Recommended Actions
 - Report issues if you encounter mistakes, errors, lacks, etc... in this documentation
