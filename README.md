@@ -2,26 +2,28 @@
   <img src="images/Enssat-UnivRennes_RVB.png" alt="ENSSAT Logo" width="500"/>
 </p>
 
-⚠️ **NOTICE:** This project has recent changes that may affect usage.  
-Please read the **Latest News & Warnings** section below before proceeding.
 
-
-<details open>
+<details>
 <summary>⚠️ <strong>Latest News & Important Warnings</strong></summary>
 
 ### 📰 Latest News
-- **YYYY-MM-DD:** Describe the recent update or issue here.
+- **06-02-2026:** Branch https://github.com/epoirierIRD/Chlorophyll-Fluorometer/tree/main is ahead original
+repository https://github.com/EnssatPhotonicsProjects/Chlorophyll-Fluorometer (not maintained)
+- **14-12-2025:** Fluorimeter has been successfully replicated by E. Poirier based on this repo.
 
 ### 🚨 Warnings
-- This project is under active development.
-- Breaking changes may occur between releases.
-- Not recommended for production use without thorough testing.
+- This project is a student based innovation. It is under development, replicate with caution
+- The fluorometer has noot been validated in situ for Chla measurements
+- It is not recommended to build it to have accurate measures of Chl accurate in situ
 
 ### ✅ Recommended Actions
-- Pin a specific version
-- Read the CHANGELOG before upgrading
-- Report issues if you encounter unexpected behavior
+- Report issues if you encounter mistakes, errors, lacks, etc... in this documentation
 
+> ⚠️ **Disclaimer**
+>
+> This project is provided **as-is** for research and development purposes only.
+> The authors make no guarantees regarding correctness, reliability, or fitness for any particular application.
+> Use of this DIY instrument is entirely **at your own risk**.
 </details>
 
 
@@ -29,7 +31,10 @@ Please read the **Latest News & Warnings** section below before proceeding.
 
 ## Description
 
-This project aims to develop a portable and low-cost fluorometer for detecting chlorophyll-a concentration, a key indicator of phytoplankton presence. The project is conducted by students in photonics from Enssat in collaboration with the European Institute for Marine Studies (IUEM) and is part of an open-source initiative to facilitate easy and cost-effective replication of the device.
+This project aims to develop a portable and low-cost fluorometer for detecting chlorophyll-a concentration,
+ a key indicator of phytoplankton presence. The project is conducted by students in photonics from Enssat in
+  collaboration with the European Institute for Marine Studies (IUEM) and is part of an open-source initiative 
+  to facilitate easy and cost-effective replication of the device.
 
 This GitHub repository contains all the necessary resources and instructions for making the device.
 
@@ -47,7 +52,9 @@ The document [Fluoremeter overview](Fluorometer_overview.pdf) aims to provide an
   <img src="images/principle_diagram.png" alt="principle diagram" width="350"/>
 </p>
 
-The principle of fluorometry is based on the fact that chlorophyll-a in phytoplankton, when excited by a blue light source at a wavelength of 430 nm, re-emits light in the red spectrum around 670 nm. This red fluorescence is detected by a photodetector, enabling the measurement of chlorophyll-a concentration in the sample.
+The principle of fluorometry is based on the fact that chlorophyll-a in phytoplankton, when excited by a blue light source at
+ a wavelength of 430 nm, re-emits light in the red spectrum around 670 nm. This red fluorescence is detected by a photodetector, 
+ enabling the measurement of chlorophyll-a concentration in the sample.
 
 ## Functionality
 
@@ -55,7 +62,9 @@ The principle of fluorometry is based on the fact that chlorophyll-a in phytopla
   <img src="images/Block_diagram.png" alt="Block diagram" width="400"/>
 </p>
 
-With our setup, high sensitivity is achieved by usind two LEDs and a large-area photodiode to collect more efficiently fluorescence. A red filter is used to prevent the detection of wavelengths other than red. The Arduino board enables modulation and demodulation to eliminate ambient red light.
+With our setup, high sensitivity is achieved by usind two LEDs and a large-area photodiode to collect more efficiently fluorescence. 
+A red filter is used to prevent the detection of wavelengths other than red. The Arduino board enables modulation and demodulation to
+ eliminate ambient red light.
 
 ## Components
 
