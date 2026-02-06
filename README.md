@@ -2,6 +2,10 @@
   <img src="images/Enssat-UnivRennes_RVB.png" alt="ENSSAT Logo" width="500"/>
 </p>
 
+⚠️ **NOTICE:** This project has recent changes that may affect usage.  
+Please read the **Latest News & Warnings** section below before proceeding.
+
+
 # Chlorophyll-Fluorometer
 
 ## Description
