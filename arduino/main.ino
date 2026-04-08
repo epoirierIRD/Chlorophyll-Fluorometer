@@ -5,7 +5,8 @@
 #include "SD.h"
 
 // === Display Setup ===
-U8GLIB_SSD1306_128X64 u8g(U8G_I2C_OPT_NONE);
+// 修改I2C引脚避免与USB连接器接触冲突，将SDA改A2、SCL改A3
+U8GLIB_SSD1306_128X64 u8g(U8G_I2C_OPT_DEV_0 | U8G_I2C_OPT_SDA_PIN(2) | U8G_I2C_OPT_SCL_PIN(3));
 
 // === ADC ===
 Adafruit_ADS1115 ads;
