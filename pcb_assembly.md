@@ -108,7 +108,7 @@ To do that proceed just as above using component ADS1115 to make sure that the a
 
 - **Identifying capacitor polarities:**
 
-Usually, electrolytic/tantalum capacitors do have a + and − pin.
+⚙️ Usually, electrolytic/tantalum capacitors do have a + and − pin.
 
 On an electrolytic capacitor:
 
@@ -171,7 +171,7 @@ Don't forget to cut the rest of the legs once the solder joint is good. Do that 
 ### Adapt the 8 wires ribbon
 
 The [8 wires ribbon](https://www.gotronic.fr/art-connecteur-nsk254-8f-15369.htm) we purchased from Gotronics France (Connector NSK254-8F female 8 pins + wires 20 cm, Code : 48670) comes with an unterlinated end.
-The task is to solder the same NSK254-8F at the other end. Solder and use heat-shrink tubing to cover the joints.
+The task is to solder the same NSK254-8F at the other end. Solder and use heat-shrink tubing to cover the joints. We wil have to think 🧠 and find a better solution for that.
 
 ⚠️: Beware of the colors: don't mix them.
 
@@ -198,15 +198,8 @@ Align the OLED pins with the labels on the PCB. Watch for the orientation and th
   <img src="images/PCB_assembly/oled_screen_done.jpg" width="300" />
   <img src="images/PCB_assembly/oled_screen_closeup.jpg" width="300" />
 </p>
-kfkfkfkf
 
+Very good job. Let's go 🚀 for the final assembly of the fluorometer.
 
-
-
-- 😀 Smile
-- 😎 Cool
-- 🚀 Rocket
-
-- ⚙️ Settings
-- 🧠 Brain
+Jump to the [structure_assembly_guide.md](structure_assembly_guide.md)
 
