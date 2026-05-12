@@ -8,17 +8,18 @@ The following Arduino libraries are required to compile and run this project:
    - Included with Arduino IDE
    - Used for I2C communication.
 
-2. Adafruit_ADS1X15.h
-   - Available via Arduino Library Manager
-   - Used for interfacing with the ADS1115 ADC.
+2. U8glib.h
+   - Available via Arduino Library Manager is the header file for the Universal 8bit Graphics Library (U8glib),
+    a popular Arduino library designed for driving monochrome OLED and LCD displays.
 
-3. Adafruit_GFX.h
-   - Available via Arduino Library Manager
-   - Core graphics library for displaying text and shapes on displays.
+3. SPI.h
+   The SPI library allows you to communicate with SPI devices, with the Arduino board as the controller device. This library is
+   bundled with every Arduino platform (avr, megaavr, mbed, samd, sam, arc32), so you do not need to install it separately.
 
-4. Adafruit_SSD1306.h
+4. SD.h
    - Available via Arduino Library Manager
-   - Driver for the SSD1306 OLED display.
+   - The SD library allows for reading from and writing to SD cards, eg on the Arduino Ethernet Shield. 
+   It is built on sdfatlib by William Greiman.
 
 # Installation Instructions
 To install the required libraries:
