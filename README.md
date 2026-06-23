@@ -7,13 +7,15 @@
 <summary>⚠️ <strong>Latest News & Important Warnings</strong></summary>
 
 ### 📰 Latest News
+- **06-05-2026:** Fluorometer has been successfully replicated by Jose Lopez ("pepe Tonio") in La Paz, Mexico during PSF Tempo workshop: Arturo, F. Colas, J. Flye Ste Marie, M. Gomez, E. Kraffe, R Martinez Riccon, M. Perez,  E. Poirier
+- **30-04-2026:** Original PVC casing now replaced by 90mm diameter acrylic transparent casing
 - **06-02-2026:** Branch https://github.com/epoirierIRD/Chlorophyll-Fluorometer/tree/main is ahead original
 repository https://github.com/EnssatPhotonicsProjects/Chlorophyll-Fluorometer (not maintained)
-- **14-12-2025:** Fluorimeter has been successfully replicated by E. Poirier based on this repo.
+- **14-12-2025:** Fluorometer has been successfully replicated by E. Poirier based on this repo.
 
 ### 🚨 Warnings
-- This project is a student based innovation. It is under development, replicate with caution
-- The fluorometer has noot been validated in situ for Chla measurements
+- This project is a student based innovation. It is now under development in research institutes, replicate with caution
+- The fluorometer has not yet been validated in situ for Chla measurements. It has proven great results in laboratory under artifical light but not validated in situ
 - It is not recommended to build it to have accurate measures of Chl a in situ
 
 ### ✅ Recommended Actions
