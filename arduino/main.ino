@@ -75,9 +75,9 @@ void setup() {
     } while (u8g.nextPage());
     delay(10000);}
 
-  currents = SD.open("currents.txt", FILE_WRITE);
+  currents = SD.open("currents.csv", FILE_WRITE);
   if (currents) {
-    currents.println("Time (ms) Current (nA)");
+    currents.println("Time (ms),Current (nA)");
     currents.close();
   } else {
     u8g.firstPage();
@@ -86,9 +86,10 @@ void setup() {
       u8g.setPrintPos(1, 12);
       u8g.print("error opening");
       u8g.setPrintPos(1, 24);
-      u8g.print("currents.txt");
+      u8g.print("currents.csv");
     } while (u8g.nextPage());
-    delay(10000);}
+    delay(10000);
+  }
   
   lastWindowStart = millis();
 }
@@ -127,14 +128,14 @@ void loop() {
       do {
       u8g.setPrintPos(1, 14);
       u8g.setFont(u8g_font_helvR14);
-      //u8g.println("Avg V : "); //print voltage value
-      u8g.println("Avg nA : ");
+      //u8g.println("Avg V: "); //print voltage value
+      u8g.println("Avg nA: ");
       u8g.setPrintPos(1, 35);
       u8g.print(avg);
       } while (u8g.nextPage());
-      currents = SD.open("currents.txt", FILE_WRITE);
+      currents = SD.open("currents.csv", FILE_WRITE);
       currents.print(now);
-      currents.print(" ");
+      currents.print(",");
       currents.println(avg);
       currents.close();
     } else {
