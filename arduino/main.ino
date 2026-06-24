@@ -183,16 +183,20 @@ void loop() {
 
       maBuffer[maIndex] = signal;
       maIndex = (maIndex + 1) % MA_WINDOW;
-      if (maCount < MA_WINDOW) maCount++;
 
-      float maSum = 0;
-      for (int i = 0; i < maCount; i++) maSum += maBuffer[i];
-      float smoothed = maSum / maCount;
+      if (maCount == MA_WINDOW) {
+        float maSum = 0;
+        for (int i = 0; i < MA_WINDOW; i++) maSum += maBuffer[i];
+        float smoothed = maSum / MA_WINDOW;
 
-      filteredSum += smoothed;
-      filteredCount++;
-      filteredMin = min(filteredMin, smoothed);
-      filteredMax = max(filteredMax, smoothed);
+        filteredSum += smoothed;
+        filteredCount++;
+        filteredMin = min(filteredMin, smoothed);
+        filteredMax = max(filteredMax, smoothed);
+      } else {
+        // Don't contribute to the rolling statistics until the window is full
+        maCount++;
+      }
     }
   }
 }
