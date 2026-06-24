@@ -28,6 +28,8 @@ int maIndex = 0;
 int maCount = 0;
 float filteredSum = 0;
 int filteredCount = 0;
+float filteredMin = 999999;
+float filteredMax = 0;
 const int maxFiltered = 200;
 
 // === SD Card Shield ===
@@ -77,7 +79,7 @@ void setup() {
 
   currents = SD.open("currents.csv", FILE_WRITE);
   if (currents) {
-    currents.println("Time (ms),Current (nA)");
+    currents.println("Time (ms),Average Current (nA),Minimal Current (nA),Maximal Current (nA)");
     currents.close();
   } else {
     u8g.firstPage();
@@ -103,6 +105,8 @@ void loop() {
     lastWindowStart = now;
     filteredSum = 0;
     filteredCount = 0;
+    filteredMin = 999999;
+    filteredMax = 0;
     maIndex = 0;
     maCount = 0;
     lowSampleReady = false;
@@ -136,7 +140,11 @@ void loop() {
       currents = SD.open("currents.csv", FILE_WRITE);
       currents.print(now);
       currents.print(",");
-      currents.println(avg);
+      currents.print(avg);
+      currents.print(",");
+      currents.print(filteredMin);
+      currents.print(",");
+      currents.println(filteredMax);
       currents.close();
     } else {
 
@@ -183,6 +191,8 @@ void loop() {
 
       filteredSum += smoothed;
       filteredCount++;
+      filteredMin = min(filteredMin, smoothed);
+      filteredMax = max(filteredMax, smoothed);
     }
   }
 }
