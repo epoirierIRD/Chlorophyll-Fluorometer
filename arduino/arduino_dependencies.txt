@@ -18,14 +18,15 @@ The following Arduino libraries are required to compile and run this project:
 
 4. SD.h
    - Available via Arduino Library Manager
-   - The SD library allows for reading from and writing to SD cards, eg on the Arduino Ethernet Shield. 
+   - The SD library allows for reading from and writing to SD cards, eg on the Arduino Ethernet Shield.
    It is built on sdfatlib by William Greiman.
+
+5. Adafruit_ADS1X15.h
+   - Arduino library for ADS1015/1115 ADCs, by Adafruit.
+   - Available via the Adruino Library Manager.
 
 # Installation Instructions
 To install the required libraries:
 1. Open the Arduino IDE.
 2. Go to Sketch > Include Library > Manage Libraries.
 3. Search for each library by name and install it.
-
-# Additional Setup
-Ensure that your I2C devices (ADS1115 and SSD1306) are correctly connected to the Arduino I2C pins (A4 for SDA and A5 for SCL).
