@@ -5,6 +5,10 @@
 #include "SD.h"
 
 // === Display Setup ===
+// Configuration variable to turn off OLED display:
+// - Initial diagnostic messages always appear
+// - Sampling messages only appear if ENABLE_DISPLAY is true
+const bool ENABLE_DISPLAY = true;
 U8GLIB_SSD1306_128X64 u8g(U8G_I2C_OPT_NONE);
 
 // === ADC ===
@@ -28,19 +32,21 @@ int maIndex = 0;
 int maCount = 0;
 float filteredSum = 0;
 int filteredCount = 0;
+float filteredMin = 999999;
+float filteredMax = 0;
 const int maxFiltered = 200;
 
 // === SD Card Shield ===
 File currents;
-const int chipSelect = 4;  
+const int chipSelect = 4;
 
 void setup() {
   pinMode(ledPin, OUTPUT);
   digitalWrite(ledPin, LOW);
 
-   Serial.begin(115200); // Optional debug
+  Serial.begin(115200); // Optional debug
 
-// === Display Init ===
+  // === Display Init ===
   u8g.firstPage();
   do {
     u8g.setColorIndex(1); // 1 for white text on black background
@@ -64,7 +70,7 @@ void setup() {
 
   // === SD Card Shield Init ===
   pinMode(SS, OUTPUT);
-  if (!SD.begin(SPI_HALF_SPEED, chipSelect)) { 
+  if (!SD.begin(SPI_HALF_SPEED, chipSelect)) {
     u8g.firstPage();
     do {
       u8g.setFont(u8g_font_7x14);
@@ -73,11 +79,12 @@ void setup() {
       u8g.setPrintPos(1, 24);
       u8g.print("failed");
     } while (u8g.nextPage());
-    delay(10000);}
+    delay(10000);
+  }
 
-  currents = SD.open("currents.txt", FILE_WRITE);
+  currents = SD.open("currents.csv", FILE_WRITE);
   if (currents) {
-    currents.println("Time (ms) Current (nA)");
+    currents.println("Time (ms),Average Current (nA),Minimal Current (nA),Maximal Current (nA)");
     currents.close();
   } else {
     u8g.firstPage();
@@ -86,10 +93,17 @@ void setup() {
       u8g.setPrintPos(1, 12);
       u8g.print("error opening");
       u8g.setPrintPos(1, 24);
-      u8g.print("currents.txt");
+      u8g.print("currents.csv");
     } while (u8g.nextPage());
-    delay(10000);}
-  
+    delay(10000);
+  }
+
+  if (ENABLE_DISPLAY) {
+    u8g.sleepOff();
+  } else {
+    u8g.sleepOn();
+  }
+
   lastWindowStart = millis();
 }
 
@@ -102,16 +116,20 @@ void loop() {
     lastWindowStart = now;
     filteredSum = 0;
     filteredCount = 0;
+    filteredMin = 999999;
+    filteredMax = 0;
     maIndex = 0;
     maCount = 0;
     lowSampleReady = false;
-    u8g.firstPage();
-    do {
-    u8g.setPrintPos(1, 14);
-    u8g.setFont(u8g_font_helvR14);
-    u8g.print("Sampling...");
-    } while (u8g.nextPage());
-    delay(500);
+    if (ENABLE_DISPLAY) {
+      u8g.firstPage();
+      do {
+        u8g.setPrintPos(1, 14);
+        u8g.setFont(u8g_font_helvR14);
+        u8g.print("Sampling...");
+      } while (u8g.nextPage());
+      delay(500);
+    }
   }
 
   // === End Sampling Window ===
@@ -123,26 +141,31 @@ void loop() {
     if (filteredCount > 0) {
       //float avg = filteredSum / filteredCount; // voltage value
       float avg = (filteredSum / filteredCount)*10000;
-      u8g.firstPage();
-      do {
-      u8g.setPrintPos(1, 14);
-      u8g.setFont(u8g_font_helvR14);
-      //u8g.println("Avg V : "); //print voltage value
-      u8g.println("Avg nA : ");
-      u8g.setPrintPos(1, 35);
-      u8g.print(avg);
-      } while (u8g.nextPage());
-      currents = SD.open("currents.txt", FILE_WRITE);
+      if (ENABLE_DISPLAY) {
+        u8g.firstPage();
+        do {
+          u8g.setPrintPos(1, 14);
+          u8g.setFont(u8g_font_helvR14);
+          //u8g.println("Avg V: "); //print voltage value
+          u8g.println("Avg nA: ");
+          u8g.setPrintPos(1, 35);
+          u8g.print(avg);
+        } while (u8g.nextPage());
+      }
+      currents = SD.open("currents.csv", FILE_WRITE);
       currents.print(now);
-      currents.print(" ");
-      currents.println(avg);
+      currents.print(",");
+      currents.print(avg);
+      currents.print(",");
+      currents.print(filteredMin);
+      currents.print(",");
+      currents.println(filteredMax);
       currents.close();
-    } else {
-
+    } else if (ENABLE_DISPLAY) {
       u8g.firstPage();
       do {
         u8g.setPrintPos(1, 14);
-        u8g.setFont(u8g_font_helvR14); 
+        u8g.setFont(u8g_font_helvR14);
         u8g.print("No data");
       } while (u8g.nextPage());
     }
@@ -174,14 +197,20 @@ void loop() {
 
       maBuffer[maIndex] = signal;
       maIndex = (maIndex + 1) % MA_WINDOW;
-      if (maCount < MA_WINDOW) maCount++;
 
-      float maSum = 0;
-      for (int i = 0; i < maCount; i++) maSum += maBuffer[i];
-      float smoothed = maSum / maCount;
+      if (maCount == MA_WINDOW) {
+        float maSum = 0;
+        for (int i = 0; i < MA_WINDOW; i++) maSum += maBuffer[i];
+        float smoothed = maSum / MA_WINDOW;
 
-      filteredSum += smoothed;
-      filteredCount++;
+        filteredSum += smoothed;
+        filteredCount++;
+        filteredMin = min(filteredMin, smoothed);
+        filteredMax = max(filteredMax, smoothed);
+      } else {
+        // Don't contribute to the rolling statistics until the window is full
+        maCount++;
+      }
     }
   }
 }
